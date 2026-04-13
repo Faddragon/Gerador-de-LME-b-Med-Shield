@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Imprimir LME - {{ dados.nome_paciente }}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica', Arial, sans-serif;
+        }
+
+        .folha-a4 {
+            position: relative;
+            width: 210mm;
+            height: 297mm;
+            /* Garanta que a imagem lme_fundo.png está na pasta public */
+            background-image: url('/lme_fundo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .campo {
+            position: absolute;
+            font-size: 13px;
+            font-weight: bold;
+            color: black;
+            white-space: nowrap;
+        }
+
+        /* Força a impressão de cores e imagens de fundo no Chrome/Edge */
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+
+        /* ==========================================
+           MAPEAMENTO DE COORDENADAS (AJUSTE COM F12)
+           ========================================== */
+
+        /* 1. Cabeçalho (Estabelecimento) */
+        #cnes_estab {
+            top: 231px;
+            left: 57px;
+            letter-spacing: 26px;
+        }
+
+        /* Ajuste o espaçamento para caber nos 7 quadrados */
+        #nome_estab {
+            top: 229px;
+            left: 291px;
+        }
+
+        /* 2. Dados do Paciente */
+        #nome {
+            top: 269px;
+            left: 77px;
+        }
+
+        #mae {
+            top: 302px;
+            left: 78px;
+        }
+
+        #peso {
+            top: 270px;
+            left: 652px;
+            letter-spacing: 18px;
+        }
+
+        #altura {
+            top: 303px;
+            left: 653px;
+            letter-spacing: 19px;
+        }
+
+        /* 3. Prescrição (Medicamento e Quantidades) */
+        #med {
+            top: 360px;
+            left: 82px;
+            width: 460px;
+            white-space: normal;
+            line-height: 1.1;
+            font-size: 11px;
+        }
+
+        #qtd_1 {
+            top: 363px;
+            left: 570px;
+        }
+
+        #qtd_2 {
+            top: 363px;
+            left: 639px;
+        }
+
+        #qtd_3 {
+            top: 363px;
+            left: 709px;
+        }
+
+        /* 4. Diagnóstico e Anamnese */
+        #cid {
+            top: 498px;
+            left: 56px;
+            letter-spacing: 11px;
+        }
+
+        #diag {
+            top: 494px;
+            left: 220px;
+        }
+
+        #anamnese {
+            top: 530px;
+            left: 90px;
+            width: 600px;
+            line-height: 1.5;
+            white-space: normal;
+        }
+
+        /* 5. Médico Solicitante */
+        #medico {
+            top: 801px;
+            left: 62px;
+        }
+
+        #cns {
+            top: 837px;
+            left: 182px;
+            letter-spacing: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="folha-a4">
+        <div class="campo" id="cnes_estab">{{ dados.estabelecimento_cnes }}</div>
+        <div class="campo" id="nome_estab">{{ dados.estabelecimento_nome }}</div>
+
+        <div class="campo" id="nome">{{ dados.nome_paciente }}</div>
+        <div class="campo" id="mae">{{ dados.nome_mae }}</div>
+        <div class="campo" id="peso">{{ dados.peso }}</div>
+        <div class="campo" id="altura">{{ dados.altura }}</div>
+
+        <div class="campo" id="med">{{ dados.medicamento_linha_1 }}</div>
+        <div class="campo" id="qtd_1">{{ dados.quantidade }}</div>
+        <div class="campo" id="qtd_2">{{ dados.quantidade_2 }}</div>
+        <div class="campo" id="qtd_3">{{ dados.quantidade_3 }}</div>
+
+        <div class="campo" id="cid">{{ dados.cid_10 }}</div>
+        <div class="campo" id="diag">{{ dados.diagnostico_nome }}</div>
+        <div class="campo" id="anamnese">{{ dados.anamnese }}</div>
+
+        <div class="campo" id="medico">{{ dados.nome_medico }}</div>
+        <div class="campo" id="cns">{{ dados.medico_cns }}</div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            setTimeout(() => {
+                alert("⚠️ ATENÇÃO:\n\nCaso a LME não apareça na tela de impressão, clique em 'Mais Definições' e marque 'Gráficos de Fundo' para que o formulário apareça.");
+                window.print();
+            }, 500);
+        };
+    </script>
+</body>
+
+</html>

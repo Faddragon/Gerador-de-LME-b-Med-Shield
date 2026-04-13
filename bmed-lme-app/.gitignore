@@ -1,0 +1,24 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+.env/
+
+# Configurações do ambiente e chaves secretas
+.env
+*.pem
+*.key
+
+# Compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários e pastas de saída
+temp/
+output/
+data/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

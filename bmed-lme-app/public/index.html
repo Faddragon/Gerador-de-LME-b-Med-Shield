@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b-Med Shield | Gerador de LME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container py-4">
+        <div class="text-center mb-4">
+            <img src="logo.jpg" alt="b-Med" style="max-height: 80px; margin-bottom: 15px;">
+            <h2 class="text-primary fw-bold"> Shield LME AI </h2>
+            <p class="text-muted">Preenchimento Automático de LME (100% Local / LGPD Compliant)</p>
+        </div>
+
+        <div class="card p-3 border-primary">
+            <h6 class="text-primary mb-2">⚡ Smart Paste: Cole o cabeçalho do prontuário eletrônico</h6>
+            <div class="d-flex gap-2">
+                <textarea id="texto_prontuario" class="form-control" rows="2"
+                    placeholder="Ex: Paciente: João da Silva... CNS: 123456789..."></textarea>
+                <button class="btn btn-primary px-4 fw-bold" onclick="extrairDadosProntuario()">Extrair</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card p-4 mb-3">
+                    <h5 class="card-title mb-3">👤 Dados do Paciente</h5>
+                    <div class="mb-2">
+                        <label class="form-label small mb-0 fw-bold">Nome Completo</label>
+                        <input type="text" id="paciente_nome" class="form-control" style="text-transform: uppercase;">
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label small mb-0 fw-bold">Nome da Mãe</label>
+                        <input type="text" id="paciente_mae" class="form-control" style="text-transform: uppercase;">
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <label class="form-label small mb-0 fw-bold">CPF</label>
+                            <input type="text" id="paciente_cpf" class="form-control" placeholder="Apenas números"
+                                maxlength="14" oninput="this.value = this.value.replace(/[^0-9.-]/g, '');">
+                        </div>
+                        <div class="col-6 mb-2">
+                            <label class="form-label small mb-0 fw-bold">CNS</label>
+                            <input type="text" id="paciente_cns" class="form-control" placeholder="15 dígitos"
+                                maxlength="15" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Peso (kg)</label>
+                            <input type="number" id="paciente_peso" class="form-control" max="999"
+                                oninput="if(this.value.length > 3) this.value = this.value.slice(0, 3);">
+                        </div>
+                        <div class="col-6 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Altura (cm)</label>
+                            <input type="number" id="paciente_altura" class="form-control" max="999"
+                                oninput="if(this.value.length > 3) this.value = this.value.slice(0, 3);">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-4">
+                    <h5 class="card-title mb-3">🏥 Dados do Estabelecimento</h5>
+                    <div class="row">
+                        <div class="col-8 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Nome do Estabelecimento</label>
+                            <input type="text" id="estabelecimento_nome" class="form-control"
+                                style="text-transform: uppercase;">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <label class="form-label small mb-0 fw-bold">CNES</label>
+                            <input type="text" id="estabelecimento_cnes" class="form-control" placeholder="7 dígitos"
+                                maxlength="7" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-4 h-100">
+                    <h5 class="card-title mb-3">🩺 Prescrição (Alto Custo SP)</h5>
+                    <div class="row">
+                        <div class="col-7 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Nome do Médico Prescritor</label>
+                            <input type="text" id="medico_nome" class="form-control" style="text-transform: uppercase;">
+                        </div>
+                        <div class="col-5 mb-2">
+                            <label class="form-label small mb-0 fw-bold">CNS do Médico</label>
+                            <input type="text" id="medico_cns" class="form-control" placeholder="15 dígitos"
+                                maxlength="15" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Medicamento</label>
+                            <select id="select_medicamento" class="form-select" onchange="atualizarDiagnosticos()">
+                                <option value="">Selecione o medicamento na lista...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Qtd (1º Mês)</label>
+                            <input type="text" id="medicamento_quantidade" class="form-control" placeholder="Ex: 30">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Qtd (2º Mês)</label>
+                            <input type="text" id="medicamento_quantidade_2" class="form-control" placeholder="Ex: 30">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <label class="form-label small mb-0 fw-bold">Qtd (3º Mês)</label>
+                            <input type="text" id="medicamento_quantidade_3" class="form-control" placeholder="Ex: 30">
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label small mb-0 fw-bold">CID-10 / Diagnóstico</label>
+                        <select id="select_cid" class="form-select" onchange="gerarAnamnesePadrao()" disabled>
+                            <option value="">Selecione primeiro o medicamento...</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label small mb-0 fw-bold">Anamnese Padrão (Editável)</label>
+                        <textarea id="texto_anamnese" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-3">
+            <button class="btn btn-success btn-lg px-5 fw-bold" onclick="gerarPDFLME()">Gerar Documento PDF</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalOrientacoes" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content border-warning">
+                <div class="modal-header bg-warning bg-opacity-25">
+                    <h5 class="modal-title fw-bold text-dark">⚠️ Check-list Obrigatório do PCDT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="text-primary fw-bold border-bottom pb-2">Medicamento: <span id="alerta_medicamento"
+                            class="text-dark"></span></h5>
+
+                    <div class="mt-3 mb-3" id="area_pdf_governo" style="display: none;">
+                        <h6 class="fw-bold text-primary">📄 Protocolo Oficial do SUS (PCDT):</h6>
+                        <iframe id="iframe_pdf_protocolo" src="" width="100%" height="400px"
+                            style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-danger">🔬 Exames e Critérios (1ª Solicitação):</h6>
+                            <p id="alerta_exames" class="bg-light p-2 rounded border small"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-danger">🔄 Tratamento Prévio Exigido:</h6>
+                            <p id="alerta_tratamento" class="bg-light p-2 rounded border small"></p>
+                        </div>
+                    </div>
+
+                    <div class="border p-3 rounded bg-light mt-3">
+                        <h6 class="fw-bold text-danger mb-3">⚠️ TERMO DE CONCORDÂNCIA E AUDITORIA</h6>
+                        <p class="small text-muted mb-2">Declaro que li as orientações acima e confirmo que:</p>
+
+                        <div class="form-check mb-2">
+                            <input class="form-check-input check-auditoria" type="checkbox" id="check_receita"
+                                onchange="verificarCheckboxes()">
+                            <label class="form-check-label fw-bold" for="check_receita">Estou emitindo a LME de acordo
+                                com o PCDT vigente e fornecerei a Receita Médica.</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input check-auditoria" type="checkbox" id="check_exames"
+                                onchange="verificarCheckboxes()">
+                            <label class="form-check-label fw-bold" for="check_exames">Solicitei os exames obrigatórios
+                                e/ou emiti o relatório justificando os critérios clínicos.</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer bg-light d-flex justify-content-between">
+                    <button type="button" class="btn btn-link text-muted text-decoration-none small"
+                        onclick="confirmarEGerarPDF()">
+                        Ignorar avisos e Imprimir direto ⏩
+                    </button>
+
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary fw-bold me-2"
+                            data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" id="btn_gerar_seguro" class="btn btn-success fw-bold px-4"
+                            onclick="confirmarEGerarPDF()" disabled>
+                            🖨️ Confirmar e Gerar LME
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="banco_dados.js"></script>
+    <script src="app_logic.js"></script>
+
+</body>
+
+</html>
