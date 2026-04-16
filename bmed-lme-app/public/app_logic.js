@@ -28,14 +28,33 @@ document.addEventListener("DOMContentLoaded", () => {
 // ==========================================
 function atualizarDiagnosticos() {
     const selectMed = document.getElementById("select_medicamento");
+    const selectDosagem = document.getElementById("select_dosagem");
     const selectCid = document.getElementById("select_cid");
     const id = selectMed.value;
 
     selectCid.innerHTML = '<option value="">Selecione o CID...</option>';
+    selectDosagem.innerHTML = '<option value="">Selecione a dosagem...</option>';
     document.getElementById("texto_anamnese").value = "";
 
     if (id !== "") {
         selectCid.disabled = false;
+        selectDosagem.disabled = false;
+
+        // Preencher dropdown de dosagens
+        let dosagensBrutas = bancoDeDados[id].dosagens_apresentacoes || "";
+        let dosagensArray = processarDosagens(dosagensBrutas);
+
+        dosagensArray.forEach(dosagem => {
+            let opt = document.createElement("option");
+            opt.value = dosagem;
+            opt.textContent = dosagem;
+            selectDosagem.appendChild(opt);
+        });
+
+        // Auto-selecionar se só houver uma opção
+        if (dosagensArray.length === 1) {
+            selectDosagem.value = dosagensArray[0];
+        }
 
         let cidsBrutos = bancoDeDados[id].cids_contemplados || "";
         let cidsArray = cidsBrutos.split(',').map(c => c.trim()).filter(c => c);
@@ -48,7 +67,43 @@ function atualizarDiagnosticos() {
         });
     } else {
         selectCid.disabled = true;
+        selectDosagem.disabled = true;
     }
+}
+
+function processarDosagens(dosagensStr) {
+    if (!dosagensStr) return [];
+    
+    // Separa por vírgula, mas evita separator dentro de números decimais (ex: 0,5 mg)
+    let dosagens = [];
+    let atual = "";
+    let virgulaCount = 0;
+    
+    for (let i = 0; i < dosagensStr.length; i++) {
+        let char = dosagensStr[i];
+        if (char === ',') {
+            virgulaCount++;
+        }
+        if (virgulaCount === 1 && char === ',') {
+            if (atual.trim()) {
+                dosagens.push(atual.trim());
+            }
+            atual = "";
+            virgulaCount = 0;
+        } else {
+            atual += char;
+        }
+    }
+    if (atual.trim()) {
+        dosagens.push(atual.trim());
+    }
+    
+    // Se não conseguiu separar, tenta por ponto e vírgula
+    if (dosagens.length <= 1 && dosagensStr.includes(';')) {
+        dosagens = dosagensStr.split(';').map(d => d.trim()).filter(d => d);
+    }
+    
+    return dosagens;
 }
 
 function gerarAnamnesePadrao() {
@@ -130,10 +185,15 @@ function extrairDadosProntuario() {
 // A. Abre o Modal de Segurança e carrega o PDF/Exigências
 function gerarPDFLME() {
     const selectMed = document.getElementById("select_medicamento");
+    const selectDosagem = document.getElementById("select_dosagem");
     const id = selectMed.value;
 
     if (id === "" || !document.getElementById("paciente_nome").value) {
         return alert("Atenção: O Nome do Paciente e a seleção de Medicamento são obrigatórios.");
+    }
+
+    if (!selectDosagem.value) {
+        return alert("Atenção: Por favor, selecione a Dosagem/Apresentação do medicamento.");
     }
 
     const dadosProtocolo = bancoDeDados[id];
@@ -201,12 +261,13 @@ function verificarCheckboxes() {
 // C. Confirma os avisos e envia os dados para o servidor gerar a LME final
 async function confirmarEGerarPDF() {
     const selectMed = document.getElementById("select_medicamento");
+    const selectDosagem = document.getElementById("select_dosagem");
     const id = selectMed.value;
 
     let nomeMed = bancoDeDados[id].medicamento || "";
-    let dosagemMed = bancoDeDados[id].dosagens_apresentacoes || "";
+    let dosagemSelecionada = selectDosagem.value || bancoDeDados[id].dosagens_apresentacoes || "";
     let diagnosticoNome = bancoDeDados[id].diagnosticos || "";
-    let medicamentoComDose = `${nomeMed} - ${dosagemMed}`;
+    let medicamentoComDose = `${nomeMed} - ${dosagemSelecionada}`;
 
     const dados = {
         "nome_paciente": document.getElementById("paciente_nome").value.toUpperCase(),
