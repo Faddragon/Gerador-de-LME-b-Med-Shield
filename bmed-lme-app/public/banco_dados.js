@@ -1,3 +1,8 @@
+// ========================================================
+// Banco de Dados gerado automaticamente pelo Python
+// NÃO EDITE ESTE ARQUIVO MANUALMENTE.
+// ========================================================
+
 const bancoDeDados = [
     {
         "medicamento": "ADALIMUMABE",
@@ -10,7 +15,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "001_adalimumabe_psoriase_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "40 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "DANAZOL",
@@ -23,7 +29,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "100_danazol_angioedema_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Angioedema (D84.1), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Angioedema (D84.1), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – cápsula; 200 mg – cápsula"
     },
     {
         "medicamento": "DANAZOL",
@@ -36,7 +43,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "102_danazol_lupus_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – cápsula"
     },
     {
         "medicamento": "Danazol",
@@ -49,7 +57,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "103_danazol_purpura_v11_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Danazol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Danazol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – cápsula"
     },
     {
         "medicamento": "Deferasirox",
@@ -62,7 +71,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "104_deferasirox_sobrecarga_ferro_v17.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Deferasirox conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Deferasirox conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "125 mg, 250 mg e 500 mg – comprimido"
     },
     {
         "medicamento": "Deferiprona",
@@ -75,7 +85,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "105_deferiprona_sobrecarga_ferro_v12_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Deferiprona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Deferiprona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg e 1000 mg – comprimido"
     },
     {
         "medicamento": "Desferroxamina",
@@ -88,7 +99,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "107_desferroxamina_sobrecarga_ferro_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Desferroxamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Sobrecarga de Ferro (E83.1, T45.4), apresentando quadro clínico ativo e com indicação formal para uso de Desferroxamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "DONEPEZILA",
@@ -101,7 +113,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "109_donepezila_alzheimer_v23.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de DONEPEZILA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de DONEPEZILA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg e 10 mg – comprimido"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -114,7 +127,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "10_adalimumabe_hidradenite_v12_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hidradenite Supurativa (L73.2), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hidradenite Supurativa (L73.2), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "ENTACAPONA",
@@ -127,7 +141,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "111_entacapona_parkinson_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de ENTACAPONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de ENTACAPONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mg – comprimido"
     },
     {
         "medicamento": "ETANERCEPTE",
@@ -140,7 +155,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "113_etanercepte_artrite_psoriasica_v33.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M0.72, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M0.72, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – frasco-ampola; 50 mg – seringa preenchida - Originador (Enbrel®) e Biossimilar (Brenzys®)"
     },
     {
         "medicamento": "Etanercepte",
@@ -153,7 +169,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "114_etanercepte_artrite_reumatoide_v39.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Etanercepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Etanercepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – frasco-ampola; 50 mg – seringa preenchida – Originador (Enbrel®) e Biossimilar (Brenzys®)"
     },
     {
         "medicamento": "ETANERCEPTE",
@@ -166,7 +183,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "115_etanercepte_espondilite_v33.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg injetável – frasco-ampola; 50 mg – seringa preenchida – Originador (Enbrel®) e Biossimilar (Brenzys®)"
     },
     {
         "medicamento": "ETOSSUXIMIDA",
@@ -179,7 +197,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "116_etossuximida_epilepsia_v16_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de ETOSSUXIMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de ETOSSUXIMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg/ml xarope – frasco de 120 ml"
     },
     {
         "medicamento": "EVEROLIMO",
@@ -192,7 +211,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "117_everolimo_transplante_renal_v12_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão em Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão em Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5 mg; 0,75 mg; 1,0 mg – comprimido"
     },
     {
         "medicamento": "Fenofibrato",
@@ -205,7 +225,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "118_fenofibrato_dislipidemia_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenofibrato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenofibrato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mg – cápsula e 250 mg – cápsula de liberação retardada"
     },
     {
         "medicamento": "Fenoterol",
@@ -218,7 +239,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "119_fenoterol_asma_v10_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mcg aerossol – frasco de 200 doses"
     },
     {
         "medicamento": "ALFADORNASE",
@@ -231,7 +253,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "11_alfadornase_fibrose_cistica_v18_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.0, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de ALFADORNASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.0, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de ALFADORNASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 mg – ampola"
     },
     {
         "medicamento": "Fenoterol",
@@ -244,7 +267,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "120_fenoterol_dpoc_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Fenoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mcg aerossol – frasco de 200 doses"
     },
     {
         "medicamento": "FILGRASTIM",
@@ -257,7 +281,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "122_filgrastim_hepatite_c_v12_10-24_2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Viral C e Coinfecções (B17.1, B18.2), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Viral C e Coinfecções (B17.1, B18.2), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mcg injetável – frasco"
     },
     {
         "medicamento": "FILGRASTIM",
@@ -270,7 +295,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "123_filgrastim_doencahivresuloutrasdoecasv5_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença pelo HIV Resultando em Outras Doenças (B20.0, B20.1, B20.2, B20.3, B20.4, B20.5, B20.6, B20.7, B20.8, B20.9, B22.0, B22.1, B22.2, B22.7, B23.0, B23.1, B23.2, B23.8, B24), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença pelo HIV Resultando em Outras Doenças (B20.0, B20.1, B20.2, B20.3, B20.4, B20.5, B20.6, B20.7, B20.8, B20.9, B22.0, B22.1, B22.2, B22.7, B23.0, B23.1, B23.2, B23.8, B24), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mcg injetável – frasco"
     },
     {
         "medicamento": "Fingolimode",
@@ -283,7 +309,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "124_fingolimode_esclerose_multipla_v22_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Fingolimode conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Fingolimode conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "0,5 mg – cápsula"
     },
     {
         "medicamento": "FLUDROCORTISONA",
@@ -296,7 +323,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "125_fludrocortisona_hiperplasia_adrenal_congenita_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hiperplasia Adrenal Congênita (E25.0), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hiperplasia Adrenal Congênita (E25.0), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,1 mg – comprimido"
     },
     {
         "medicamento": "FLUDROCORTISONA",
@@ -309,7 +337,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "126_fludrocortisona_insuficiencia_adrenal_primariav13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Adrenal Primária – Doença de Addison (E27.1; E27.4), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Adrenal Primária – Doença de Addison (E27.1; E27.4), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,1 mg – comprimido"
     },
     {
         "medicamento": "FORMOTEROL",
@@ -322,7 +351,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "127_formoterol_asma_v23_4_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de FORMOTEROL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de FORMOTEROL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "12 mcg – cápsula inalante"
     },
     {
         "medicamento": "Formoterol",
@@ -335,7 +365,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "128_formoterol_dpoc_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "12 mcg – cápsula inalante"
     },
     {
         "medicamento": "Formoterol + Budesonida",
@@ -348,7 +379,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "129_formoterol_budesonida_asma_v21_4_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol + Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol + Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "Formoterol 12 mcg + Budesonida 400 mcg – cápsula inalante ou pó inalante; Formoterol 6 mcg + Budesonida 200 mcg – cápsula inalante"
     },
     {
         "medicamento": "Alfaepoetina",
@@ -361,7 +393,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "12_alfaepoetina_anemia_inuficiencia_renal_v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia em Pacientes com Insuficiência Renal Crônica (N18.0; N18.8), apresentando quadro clínico ativo e com indicação formal para uso de Alfaepoetina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia em Pacientes com Insuficiência Renal Crônica (N18.0; N18.8), apresentando quadro clínico ativo e com indicação formal para uso de Alfaepoetina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1.000 UI, 2.000 UI, 3.000 UI, 4.000 UI e 10.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Formoterol + Budesonida",
@@ -374,7 +407,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "130_formoterol_budesonida_dpoc_v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol + Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Formoterol + Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "Formoterol 12 mcg + Budesonida 400 mcg – cápsula inalante ou pó inalante; Formoterol 6 mcg + Budesonida 200 mcg – cápsula inalante ou pó inalante"
     },
     {
         "medicamento": "GABAPENTINA",
@@ -387,7 +421,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "131_gabapentina_epilepsia_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de GABAPENTINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de GABAPENTINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mg e 400 mg – cápsula"
     },
     {
         "medicamento": "GABAPENTINA",
@@ -400,7 +435,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "132_gabapentina_dor_v16_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de GABAPENTINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de GABAPENTINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mg e 400 mg – cápsula"
     },
     {
         "medicamento": "Galantamina",
@@ -413,7 +449,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "133_galantamina_alzheimer_v25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Galantamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Galantamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "8 mg, 16 mg e 24 mg – cápsula de liberação prolongada"
     },
     {
         "medicamento": "GENFIBROZILA",
@@ -426,7 +463,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "134_genfibrozila_dislipidemia_v20_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de GENFIBROZILA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de GENFIBROZILA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "600 mg e 900 mg – comprimido"
     },
     {
         "medicamento": "GLATIRAMER",
@@ -439,7 +477,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "135_glatiramer_esclerose_multipla_v23.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de GLATIRAMER conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de GLATIRAMER conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – frasco-ampola ou seringa preenchida"
     },
     {
         "medicamento": "GOLIMUMABE",
@@ -452,7 +491,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "136_golimumabe_artrite_reumatoide_v31.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de GOLIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de GOLIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "GOSSERRELINA",
@@ -465,7 +505,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "137_gosserrelina_endometriose_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de GOSSERRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de GOSSERRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,6 mg e 10,8 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "Goserrelina",
@@ -478,7 +519,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "138_gosserrelina_leiomioma_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,6 mg e 10,8 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "Goserrelina",
@@ -491,7 +533,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "139_gosserrelina_puberdade_precoce_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,6 mg e 10,8 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "ALFAEPOETINA",
@@ -504,7 +547,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "13_alfaepoetina_transplantedemedulaoupancreas_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1.000 UI, 2.000 UI, 3.000 UI, 4.000 UI e 10.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Hidroxicloroquina",
@@ -517,7 +561,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "140_hidroxicloroquina_artrite_reumatoide_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg – comprimido"
     },
     {
         "medicamento": "Hidroxicloroquina",
@@ -530,7 +575,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "141_hidroxicloroquina_dermatomiosite_v16_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg – comprimido"
     },
     {
         "medicamento": "Hidroxicloroquina",
@@ -543,7 +589,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "142_hidroxicloroquina_lupus_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg – comprimido"
     },
     {
         "medicamento": "Hidroxiuréia",
@@ -556,7 +603,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "143_hidroxiureia_falciforme_v22_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Falciforme (D57.0, D57.1, D57.2), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxiuréia conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Falciforme (D57.0, D57.1, D57.2), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxiuréia conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – comprimido; 500 mg – cápsula"
     },
     {
         "medicamento": "IMIGLUCERASE",
@@ -569,7 +617,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "144_imiglucerase_gaucher_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de IMIGLUCERASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de IMIGLUCERASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -582,7 +631,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "146_imunoglobulina_anemia_hemolitica_v4_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -595,7 +645,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "148_imunoglobulina_dermatomiosite_v13_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5g, 1g e 5,0g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -608,7 +659,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "149_imunoglobulina_hiv_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença pelo HIV Resultando em Outras Doenças (B20.0, B20.1, B20.2, B20.3, B20.4, B20.5, B20.6, B20.7, B20.8, B20.9, B22.0, B22.1, B22.2, B22.7, B23.0, B23.1, B23.2, B23.8, B24), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença pelo HIV Resultando em Outras Doenças (B20.0, B20.1, B20.2, B20.3, B20.4, B20.5, B20.6, B20.7, B20.8, B20.9, B22.0, B22.1, B22.2, B22.7, B23.0, B23.1, B23.2, B23.8, B24), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "ALFAEPOETINA",
@@ -621,7 +673,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "14_alfaepoetina_hepatite_c_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Viral C e Coinfecções (B17.1, B18.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Viral C e Coinfecções (B17.1, B18.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -634,7 +687,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "150_imunoglobulina_imunodeficiencia_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunodeficiência Primária com Predominância de Defeitos de Anticorpos (D80.0, D80.1, D80.3, D80.5, D80.6, D80.7, D80.8, D81.0, D81.1, D81.2, D81.3, D81.4, D81.5, D81.6, D81.7, D81.8, D82.0, D82.1, D83.0, D83.2, D83.8), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunodeficiência Primária com Predominância de Defeitos de Anticorpos (D80.0, D80.1, D80.3, D80.5, D80.6, D80.7, D80.8, D81.0, D81.1, D81.2, D81.3, D81.4, D81.5, D81.6, D81.7, D81.8, D82.0, D82.1, D83.0, D83.2, D83.8), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -647,7 +701,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "151_imunoglobulina_miastenia_gravis_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -660,7 +715,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "152_imunoglobulina_purpura_v20_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -673,7 +729,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "153_imunoglobulina_guillain_barre_v20_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Guillain-Barré (G61.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Guillain-Barré (G61.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -686,7 +743,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "154_imunoglobulina_transplante_renal_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Infliximabe",
@@ -699,7 +757,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "155_infliximabe_artrite_reumatoide_v25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg/mL injetável – frasco-ampola com 10mL"
     },
     {
         "medicamento": "INFLIXIMABE",
@@ -712,7 +771,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "156_infliximabe_artrite_psoriasica_v32.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de INFLIXIMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de INFLIXIMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg/mL injetável – frasco-ampola com 10mL"
     },
     {
         "medicamento": "Infliximabe",
@@ -725,7 +785,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "157_infliximabe_crohn_v15_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Infliximabe",
@@ -738,7 +799,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "158_infliximabe_espondilite_v24_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg/mL injetável – frasco-ampola com 10mL"
     },
     {
         "medicamento": "Isotretinoína",
@@ -751,7 +813,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "159_isotretinoina_acne_grave_v29_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Acne Grave (L70.0, L70.1, L70.8), apresentando quadro clínico ativo e com indicação formal para uso de Isotretinoína conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Acne Grave (L70.0, L70.1, L70.8), apresentando quadro clínico ativo e com indicação formal para uso de Isotretinoína conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg e 20 mg – cápsula"
     },
     {
         "medicamento": "LAMOTRIGINA",
@@ -764,7 +827,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "162_lamotrigina_epilepsia_v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de LAMOTRIGINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de LAMOTRIGINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "LANREOTIDA",
@@ -777,7 +841,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "163_lanreotida_acromegalia_v21_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de LANREOTIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de LANREOTIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "60 mg, 90 mg e 120 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "LEFLUNOMIDA",
@@ -790,7 +855,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "165_leflunomida_artrite_psoriasica_v28.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20 mg – comprimido"
     },
     {
         "medicamento": "LEFLUNOMIDA",
@@ -803,7 +869,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "166_leflunomida_artrite_reumatoide_v26_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20 mg – comprimido"
     },
     {
         "medicamento": "Leuprorrelina",
@@ -816,7 +883,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "167_leuprorrelina_leiomioma_v9_10-24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Leuprorrelina",
@@ -829,7 +897,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "168_leuprorrelina_puberdade_precoce_v26.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg e 45 mg (pó para suspensão injetável)"
     },
     {
         "medicamento": "Leuprorrelina",
@@ -842,7 +911,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "169_leuprorrelina_endometriose_v10_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Mesalazina",
@@ -855,7 +925,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "171_mesalazina_crohn_v11_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Mesalazina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Mesalazina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg, 500 mg, 800 mg – comprimido"
     },
     {
         "medicamento": "Mesalazina",
@@ -868,7 +939,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "172_mesalazina_retocolite_v21_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Mesalazina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Mesalazina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg, 500 mg e 800 mg – comprimido; 250 mg, 500 mg e 1000 mg – supositório; 1 g + diluente 100 mL – enema; 2 g – grânulos de liberação prolongada (por sachê)"
     },
     {
         "medicamento": "Metadona",
@@ -881,7 +953,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "173_metadona_dor_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de Metadona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de Metadona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "5 mg e 10 mg – comprimido; 10 mg/mL injetável – ampola de 1mL"
     },
     {
         "medicamento": "Metotrexato",
@@ -894,7 +967,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "181_metotrexato_artrite_psoriasica_v26.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -907,7 +981,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "182_metotrexato_artrite_reumatoide_v24_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "25mg/mL – injetável, frasco-ampola de 2mL; 2,5mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -920,7 +995,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "183b_metotrexato_crohn_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL"
     },
     {
         "medicamento": "Metotrexato",
@@ -933,7 +1009,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "183_metotrexato_dermatomiosite_v14_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -946,7 +1023,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "184_metotrexato_esclerose_sistemica_v10_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -959,7 +1037,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "185_metotrexato_espondilite_ancilosante_v18.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -972,7 +1051,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "186_metotrexato_lupus_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Metotrexato",
@@ -985,7 +1065,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "187_metotrexato_psoriase_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg/mL – injetável, ampola de 2 mL; 2,5 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Mofetila",
@@ -998,7 +1079,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "188_micofenolato_mofetila__imunotransplante_cardiaco_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (Z94.1, T86.2), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (Z94.1, T86.2), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg"
     },
     {
         "medicamento": "Micofenolato de Mofetila",
@@ -1011,7 +1093,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "190_micofenolato_mofetila_transplante_hepatico_pediatria_v10_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Mofetila",
@@ -1024,7 +1107,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "191_micofenolato_mofetila_transplante_renal_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Sódio",
@@ -1037,7 +1121,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "192_micofenolato_sodio_transplante_cardiaco_v7_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "180 mg e 360 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Sódio",
@@ -1050,7 +1135,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "194_micofenolato_sodio_transplante_hepatico_pediatria_v9_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "180 mg e 360 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Sódio",
@@ -1063,7 +1149,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "195_micofenolato_sodio_transplante_renal_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "180 mg e 360 mg – comprimido"
     },
     {
         "medicamento": "MIGLUSTATE",
@@ -1076,7 +1163,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "196_miglustate_gaucher_v21_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de MIGLUSTATE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de MIGLUSTATE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – cápsula"
     },
     {
         "medicamento": "MORFINA",
@@ -1089,7 +1177,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "197_morfina_dor_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de MORFINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de MORFINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "10 mg/mL injetável – ampola de 1 mL; 10 mg/mL solução oral – frasco de 60 mL; 10 mg e 30 mg – comprimido; 30 mg, 60 mg e 100 mg – cápsula de liberação controlada."
     },
     {
         "medicamento": "NAPROXENO",
@@ -1102,7 +1191,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "198_naproxeno_artrite_reumatoide_v24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de NAPROXENO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de NAPROXENO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "250mg e 500mg – comprimido"
     },
     {
         "medicamento": "Naproxeno",
@@ -1115,7 +1205,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "199_naproxeno_espondilite_v14_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "250 mg e 500 mg – comprimido"
     },
     {
         "medicamento": "Natalizumabe",
@@ -1128,7 +1219,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "200_natalizumabe_esclerose_multipla_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Natalizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Natalizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "300 mg – frasco-ampola"
     },
     {
         "medicamento": "Octreotida",
@@ -1141,7 +1233,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "201_octreotida_acromegalia_v20_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de Octreotida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de Octreotida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "Lar 10 mg, 20 mg e 30 mg injetável – frasco-ampola; 0,1 mg/ml injetável – ampola"
     },
     {
         "medicamento": "OLANZAPINA",
@@ -1154,7 +1247,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "202_olanzapina_esquizofrenia_v16_06-25.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg e 10 mg – comprimido"
     },
     {
         "medicamento": "OLANZAPINA",
@@ -1167,7 +1261,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "203_olanzapina_transtorno_esquizoafetivo_v14_11-24_2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg e 10 mg – comprimido"
     },
     {
         "medicamento": "PAMIDRONATO",
@@ -1180,7 +1275,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "204_pamidronato_osteoporose_v4_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de PAMIDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de PAMIDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "60 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Pancreatina",
@@ -1193,7 +1289,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "205_pancreatina_fibrose_cistica_v10_06-25_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.1, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de Pancreatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.1, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de Pancreatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10.000 UI e 25.000 UI – cápsula"
     },
     {
         "medicamento": "Pancreatina",
@@ -1206,7 +1303,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "206_pancreatina_insuficiencia_pancreatica_v13_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Pancreática Exócrina (K86.0, K86.1, K90.3), apresentando quadro clínico ativo e com indicação formal para uso de Pancreatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Pancreática Exócrina (K86.0, K86.1, K90.3), apresentando quadro clínico ativo e com indicação formal para uso de Pancreatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10.000 UI e 25.000 UI de lipase – cápsula"
     },
     {
         "medicamento": "PENICILAMINA",
@@ -1219,7 +1317,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "207_penicilamina_wilson_v9_06-25_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Wilson (E83.0), apresentando quadro clínico ativo e com indicação formal para uso de PENICILAMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Wilson (E83.0), apresentando quadro clínico ativo e com indicação formal para uso de PENICILAMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "250 mg – cápsula"
     },
     {
         "medicamento": "Amantadina",
@@ -1232,7 +1331,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "20_amantadina_parkinson__v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Amantadina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Amantadina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – comprimido"
     },
     {
         "medicamento": "PIRIDOSTIGMINA",
@@ -1245,7 +1345,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "210_piridostigmina_miastenia_gravis_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de PIRIDOSTIGMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de PIRIDOSTIGMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "60 mg – comprimido"
     },
     {
         "medicamento": "Pramipexol",
@@ -1258,7 +1359,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "211_pramipexol_parkinson_v13_09-24_2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Pramipexol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Pramipexol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,125 mg, 0,25 mg e 1 mg – comprimido"
     },
     {
         "medicamento": "Pravastatina",
@@ -1271,7 +1373,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "212_pravastatina_dislipidemia_v15_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para Prevenção de Eventos Cardiovasculares e Pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Pravastatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para Prevenção de Eventos Cardiovasculares e Pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Pravastatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg, 20 mg e 40 mg – comprimido"
     },
     {
         "medicamento": "PRIMIDONA",
@@ -1284,7 +1387,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "213_primidona_epilepsia_v13_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de PRIMIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de PRIMIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg e 250 mg – comprimido"
     },
     {
         "medicamento": "QUETIAPINA",
@@ -1297,7 +1401,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "214_quetiapina_esquizofrenia_v17.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de QUETIAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de QUETIAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 100 mg, 200 mg e 300 mg – comprimido"
     },
     {
         "medicamento": "Quetiapina",
@@ -1310,7 +1415,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "215_quetiapina_transtorno_esquizo_afetivo_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de Quetiapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de Quetiapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 100 mg, 200 mg e 300 mg – comprimido"
     },
     {
         "medicamento": "Raloxifeno",
@@ -1323,7 +1429,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "216_raloxifeno_osteoporose_v9_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Raloxifeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Raloxifeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "60 mg – comprimido"
     },
     {
         "medicamento": "RILUZOL",
@@ -1336,7 +1443,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "218_riluzol_esclerose_lateral_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Lateral Amiotrófica (G12.2), apresentando quadro clínico ativo e com indicação formal para uso de RILUZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Lateral Amiotrófica (G12.2), apresentando quadro clínico ativo e com indicação formal para uso de RILUZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "RISEDRONATO",
@@ -1349,7 +1457,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "219_risedronato_osteoporose_v4_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de RISEDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de RISEDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "35 mg - comprimido"
     },
     {
         "medicamento": "AMBRISENTANA",
@@ -1362,7 +1471,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "21_ambrisentana_hipertensao_arterial_pulmonar_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de AMBRISENTANA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de AMBRISENTANA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg e 10 mg – comprimido revestido"
     },
     {
         "medicamento": "Risperidona",
@@ -1375,7 +1485,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "220_risperidona_esquizofrenia_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg, 2 mg e 3 mg – comprimido"
     },
     {
         "medicamento": "Risperidona",
@@ -1388,7 +1499,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "221_risperidona_transtorno_esquizoafetivo_v_11-24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg, 2 mg e 3 mg – comprimido"
     },
     {
         "medicamento": "Rituximabe",
@@ -1401,7 +1513,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "222_rituximabe_artrite_reumatoide_v31.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Rituximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Rituximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – frasco-ampola de 50mL"
     },
     {
         "medicamento": "Rivastigmina",
@@ -1414,7 +1527,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "223_rivastigmina_alzheimer_v23.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Rivastigmina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Rivastigmina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1,5 mg, 3 mg, 4,5 mg e 6 mg – cápsula; 2,0 mg/ml solução oral – frasco de 120ml; 9 mg e 18 mg - adesivo transdérmico."
     },
     {
         "medicamento": "Sacarato de Hidróxido Férrico",
@@ -1427,7 +1541,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "224_sachidroxferrico_anemia__v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia em Pacientes com Insuficiência Renal Crônica - Reposição de Ferro (N18.0, N18.8), apresentando quadro clínico ativo e com indicação formal para uso de Sacarato de Hidróxido Férrico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia em Pacientes com Insuficiência Renal Crônica - Reposição de Ferro (N18.0, N18.8), apresentando quadro clínico ativo e com indicação formal para uso de Sacarato de Hidróxido Férrico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg injetável – frasco de 5mL"
     },
     {
         "medicamento": "Sildenafil",
@@ -1440,7 +1555,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "229_sildenafila_esclerose_sistemica_v12_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Sildenafil conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Sildenafil conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 50 mg – comprimido"
     },
     {
         "medicamento": "Sildenafil",
@@ -1453,7 +1569,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "229_sildenafila_hipertensao_pulmonar_v14_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de Sildenafil conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de Sildenafil conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20 mg – comprimido"
     },
     {
         "medicamento": "Atorvastatina",
@@ -1466,7 +1583,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "22_atorvastatina_dislipidemia_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para Prevenção de Eventos Cardiovasculares e Pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Atorvastatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para Prevenção de Eventos Cardiovasculares e Pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Atorvastatina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg, 20 mg, 40 mg, 80 mg – comprimido"
     },
     {
         "medicamento": "SIROLIMO",
@@ -1479,7 +1597,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "231_sirolimo_transplante_renal_v10_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de SIROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de SIROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 2 mg – drágea"
     },
     {
         "medicamento": "Somatropina",
@@ -1492,7 +1611,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "232_somatropina_hipopituitarismo_v25_9_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Deficiência de Hormônio do Crescimento – Hipopituitarismo (E23.0), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Deficiência de Hormônio do Crescimento – Hipopituitarismo (E23.0), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "4 UI injetável (1,33 mg por frasco-ampola), 12 UI injetável (4 mg por frasco-ampola)"
     },
     {
         "medicamento": "Somatropina",
@@ -1505,7 +1625,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "233_somatropina_sindrome_turner_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Turner (Q96.0, Q96.1, Q96.2, Q96.3, Q96.4, Q96.8), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Turner (Q96.0, Q96.1, Q96.2, Q96.3, Q96.4, Q96.8), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "4 UI injetável (1,33 mg por frasco-ampola), 12 UI injetável (4 mg por frasco-ampola)"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1518,7 +1639,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "234_sulfassalazina_artrite_psoriasica_v20.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1531,7 +1653,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "235_sulfassalazina_retocolite_ulcerativa_v11_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1544,7 +1667,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "236_sulfassalazina_artrite_reativa_reiter_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reativa - Doença de Reiter (M02.1, M02.3, M03.2, M03.6), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reativa - Doença de Reiter (M02.1, M02.3, M03.2, M03.6), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1557,7 +1681,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "237_sulfassalazina_artrite_reumatoide_v27.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1570,7 +1695,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "238_sulfassalazina_artropatiaenteropatica_v5_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artropatia Enteropática (M07.4, M07.5, M07.6), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artropatia Enteropática (M07.4, M07.5, M07.6), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1583,7 +1709,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "239_sulfassalazina_crohn_v10_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -1596,7 +1723,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "23_azatioprina_artrite_reumatoide_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -1609,7 +1737,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "240_sulfassalazina_espondilite_v18_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45; M46.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45; M46.8), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "TACROLIMO",
@@ -1622,7 +1751,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "241_tacrolimo_sindrome_nefrotica_v10_7_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 5 mg – cápsula"
     },
     {
         "medicamento": "TACROLIMO",
@@ -1635,7 +1765,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "244_tacrolimo_transplante_renal_v12_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 5 mg – cápsula"
     },
     {
         "medicamento": "Tocilizumabe",
@@ -1648,7 +1779,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "249_tocilizumabe_artrite_reumatoide_v29.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Tocilizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Tocilizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "20mg/ml injetável – frasco-ampola de 4ml"
     },
     {
         "medicamento": "Azatioprina",
@@ -1661,7 +1793,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "24_azatioprina_dermatomiosite_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "TOPIRAMATO",
@@ -1674,7 +1807,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "251_topiramato_epilepsia_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de TOPIRAMATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de TOPIRAMATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "Toxina Botulínica Tipo A",
@@ -1687,7 +1821,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "252_toxina_botulinica_distonias_v13_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distonias e Espasmo Hemifacial (G24.3, G24.4, G24.5, G24.8, G51.3, G51.8), apresentando quadro clínico ativo e com indicação formal para uso de Toxina Botulínica Tipo A conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distonias e Espasmo Hemifacial (G24.3, G24.4, G24.5, G24.8, G51.3, G51.8), apresentando quadro clínico ativo e com indicação formal para uso de Toxina Botulínica Tipo A conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 UI e 500 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Toxina Botulínica Tipo A",
@@ -1700,7 +1835,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "253_toxina_botulinica_espasticidade_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espasticidade (G04.1, G80.0, G80.1, G80.2, G81.1, G82.1, G82.4, I69.0, I69.1, I69.2, I69.3, I69.4, I69.8, T90.5, T90.8), apresentando quadro clínico ativo e com indicação formal para uso de Toxina Botulínica Tipo A conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espasticidade (G04.1, G80.0, G80.1, G80.2, G81.1, G82.1, G82.4, I69.0, I69.1, I69.2, I69.3, I69.4, I69.8, T90.5, T90.8), apresentando quadro clínico ativo e com indicação formal para uso de Toxina Botulínica Tipo A conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 UI e 500 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Vigabatrina",
@@ -1713,7 +1849,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "256_vigabatrina_epilepsia_v13_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de Vigabatrina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de Vigabatrina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "ZIPRASIDONA",
@@ -1726,7 +1863,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "257_ziprasidona_esquizofrenia_v18_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de ZIPRASIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de ZIPRASIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg e 80 mg – cápsula"
     },
     {
         "medicamento": "ZIPRASIDONA",
@@ -1739,7 +1877,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "258_ziprasidona_esquizoafetivo_v19_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de ZIPRASIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de ZIPRASIDONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg e 80 mg – cápsula"
     },
     {
         "medicamento": "Azatioprina",
@@ -1752,7 +1891,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "259_azatioprina_anaplmielneutconst_v6_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia Aplástica, Mielodisplasia e Neutropenias Constitucionais (D61.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia Aplástica, Mielodisplasia e Neutropenias Constitucionais (D61.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -1765,7 +1905,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "25_azatioprina_crohn_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "CLOZAPINA",
@@ -1778,7 +1919,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "260_clozapina_transtorno_afetivo_bipolar_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "LAMOTRIGINA",
@@ -1791,7 +1933,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "261_lamotrigina_transtorno_afetivo_v11_10-24_2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de LAMOTRIGINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de LAMOTRIGINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "OLANZAPINA",
@@ -1804,7 +1947,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "262_olanzapina_transtorno_afetivo_v11_06-25_3_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de OLANZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg e 10 mg – comprimido"
     },
     {
         "medicamento": "Quetiapina",
@@ -1817,7 +1961,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "263_quetiapina_transtorno_afetivo_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de Quetiapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de Quetiapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 100 mg, 200 mg, 300 mg – comprimido"
     },
     {
         "medicamento": "Risperidona",
@@ -1830,7 +1975,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "264_risperidona_bipolar_v14_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Afetivo Bipolar do Tipo I (F31.1, F31.2, F31.3, F31.4, F31.5, F31.6, F31.7), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg, 2 mg e 3 mg – comprimido"
     },
     {
         "medicamento": "Risperidona",
@@ -1843,7 +1989,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "265_risperidona_autismo_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Comportamento Agressivo como Transtorno do Espectro do Autismo (F84.0, F84.1, F84.3, F84.5, F84.8), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Comportamento Agressivo como Transtorno do Espectro do Autismo (F84.0, F84.1, F84.3, F84.5, F84.8), apresentando quadro clínico ativo e com indicação formal para uso de Risperidona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg, 2 mg e 3 mg – comprimido; 1 mg/ml – solução oral (por frasco de 30 ml)"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -1856,7 +2003,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "266_metilprednisolona_crohn_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -1869,7 +2017,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "268_metilprednisolona_imunossupressaotxpulmonar_v3_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no transplante pulmonar (Z94.2, Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no transplante pulmonar (Z94.2, Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -1882,7 +2031,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "26_azatioprina_esclerose_multipla_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -1895,7 +2045,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "270_metilpredinisolona_transplante_cardiaco_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -1908,7 +2059,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "271_metilprednisolonaimunossupressaooutrosorgaos_v3_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no transplante de outros órgãos e tecidos (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no transplante de outros órgãos e tecidos (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -1921,7 +2073,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "272_metilprednisolona_transplante_renal_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "Naproxeno",
@@ -1934,7 +2087,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "273_naproxeno_artrite_psoriasica_v5_3_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "250 mg e 500 mg – comprimido"
     },
     {
         "medicamento": "Golimumabe",
@@ -1947,7 +2101,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "275_golimumabe_artrite_psoriasica_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Golimumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Golimumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "GOLIMUMABE",
@@ -1960,7 +2115,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "276_golimumabe_espondilite_v20_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de GOLIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de GOLIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "Desferroxamina",
@@ -1973,7 +2129,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "279_desferroxamina_disturbio_mineral_osseo_drc_v16_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de Desferroxamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de Desferroxamina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -1986,7 +2143,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "27_azatioprina_esclerose_sistemica_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "SEVELÂMER",
@@ -1999,7 +2157,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "280_sevelamer_disturbio_mineral_osseo_v18.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de SEVELÂMER conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de SEVELÂMER conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "800 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2012,7 +2171,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "281_azatioprina_transplante_hepatico_adultos_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (Z94.4, T86.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (Z94.4, T86.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Ciclosporina",
@@ -2025,7 +2185,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "282_ciclosporina_transplante_hepatico_adulto_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adulto (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adulto (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "EVEROLIMO",
@@ -2038,7 +2199,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "283_everolimo_transplante_hepatico_adultos_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5 mg; 0,75 mg; 1,0 mg – comprimido"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -2051,7 +2213,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "284_metilprednisolona_transplante_hepatico_adultos_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.1, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.1, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg injetável – ampola"
     },
     {
         "medicamento": "Micofenolato de Mofetila",
@@ -2064,7 +2227,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "285_micofenolato_mofetila_transplante_hepatico_adulto_v6_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "Micofenolato de Sódio",
@@ -2077,7 +2241,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "286_micofenolato_sodio_transplante_hepatico_adulto_v5_pe_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Sódio conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "180 mg e 360 mg – comprimido"
     },
     {
         "medicamento": "TACROLIMO",
@@ -2090,7 +2255,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "287_tacrolimo_transplante_hepatico_adulto_v7_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Adultos (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 5 mg – cápsula"
     },
     {
         "medicamento": "Certolizumabe Pegol",
@@ -2103,7 +2269,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "289_certolizumabe_pegol_crohn_v10_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mg injetável – seringa pré-preenchida"
     },
     {
         "medicamento": "Azatioprina",
@@ -2116,7 +2283,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "28_azatioprina_hepatite_autoimune_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Autoimune (K75.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hepatite Autoimune (K75.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Clozapina",
@@ -2129,7 +2297,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "291_clozapina_parkinson_v2_09-24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Clozapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Clozapina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "CINACALCETE",
@@ -2142,7 +2311,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "292_cinacalcete_disturbio_mineral_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2; N18.3; N18.4; N18.5; N25.0), apresentando quadro clínico ativo e com indicação formal para uso de CINACALCETE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2; N18.3; N18.4; N18.5; N25.0), apresentando quadro clínico ativo e com indicação formal para uso de CINACALCETE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "30 mg e 60 mg – comprimido"
     },
     {
         "medicamento": "Calcitriol",
@@ -2155,7 +2325,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "293_calcitriol_disturbio_mineral_osseo_drc_v22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Laronidase",
@@ -2168,7 +2339,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "297_laronidase_mucopolissacarisose_tipo_i_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo I (E76.0), apresentando quadro clínico ativo e com indicação formal para uso de Laronidase conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo I (E76.0), apresentando quadro clínico ativo e com indicação formal para uso de Laronidase conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,58 mg/ml injetável - frasco com 5 mL"
     },
     {
         "medicamento": "Idursulfase Alfa",
@@ -2181,7 +2353,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "298_idursulfase_alfa_mucopolissacaridose__v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo II (E76.1), apresentando quadro clínico ativo e com indicação formal para uso de Idursulfase Alfa conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo II (E76.1), apresentando quadro clínico ativo e com indicação formal para uso de Idursulfase Alfa conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2 mg/ml injetável - frasco com 3 mL"
     },
     {
         "medicamento": "TRIPTORRELINA",
@@ -2194,7 +2367,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "299_triptorrelina_leiomioma_de_utero_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg e 11,25 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -2207,7 +2381,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "29_azatioprina_lupus_v18.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "TRIPTORRELINA",
@@ -2220,7 +2395,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "300_triptorrelina_puberdade_precoce_v12_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg, 11,25 mg, 22,5 mg (pó para suspensão injetável)"
     },
     {
         "medicamento": "TRIPTORRELINA",
@@ -2233,7 +2409,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "301_triptorrelina_endometriose_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3,75 mg e 11,25 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "TOFACITINIBE",
@@ -2246,7 +2423,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "302_tofacitinibe_artrite_reumatoide_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de TOFACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de TOFACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg – comprimido"
     },
     {
         "medicamento": "Fumarato de Dimetila",
@@ -2259,7 +2437,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "303_fumarato_de_dimetila_esclerose_v17_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Fumarato de Dimetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Fumarato de Dimetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "120mg e 240mg – cápsula"
     },
     {
         "medicamento": "Teriflunomida",
@@ -2272,7 +2451,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "304_teriflunomida_esclerose_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Teriflunomida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Teriflunomida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "14 mg – comprimido"
     },
     {
         "medicamento": "EVEROLIMO",
@@ -2285,7 +2465,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "305_everolimo_transplante_hepatico_pediatria_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5 mg; 0,75 mg; 1,0 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2298,7 +2479,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "30_azatioprina_miastenia_gravis_v5_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2311,7 +2493,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "31_azatioprina_purpura_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Secuquinumabe",
@@ -2324,7 +2507,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "320_secuquinumabe_artrite_psoriasica_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "150mg/mL solução injetável – seringa preenchida"
     },
     {
         "medicamento": "Secuquinumabe",
@@ -2337,7 +2521,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "321_secuquinumabe_espondilite_ancilosante_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "150mg/mL solução injetável – seringa preenchida"
     },
     {
         "medicamento": "Azatioprina",
@@ -2350,7 +2535,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "32_azatioprina_retocolite_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "ILOPROSTA",
@@ -2363,7 +2549,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "341_iloprosta_hipertensao_pulmonar_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de ILOPROSTA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de ILOPROSTA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mcg/ml – solução para nebulização (ampola de 1ml)"
     },
     {
         "medicamento": "Azatioprina",
@@ -2376,7 +2563,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "34_azatioprina_transplante_renal__v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2389,7 +2577,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "35_azatioprina_transplante_cardiaco_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (Z94.1; T86.2), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (Z94.1; T86.2), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2402,7 +2591,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "36_azatioprina_transplante_coracao_e_pulmao_v3_05-25.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Coração e Pulmão (Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Coração e Pulmão (Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2415,7 +2605,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "38_azatioprina_transplante_hepatico_em_pediatria_v7_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Azatioprina",
@@ -2428,7 +2619,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "39_azatioprina_transplante_de_medula_ou_pancreas_v5_sem_Protocolo Clínico e Diretrizes Terapêuticas (PCDT).pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "ALFAINTERFERONA 2b",
@@ -2441,7 +2633,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "40_alfainterferona_2b_hemangioma_infantil_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hemangioma Infantil (D18.0), apresentando quadro clínico ativo e com indicação formal para uso de ALFAINTERFERONA 2b conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hemangioma Infantil (D18.0), apresentando quadro clínico ativo e com indicação formal para uso de ALFAINTERFERONA 2b conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "3.000.000 UI, 5.000.000 UI, 10.000.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -2454,7 +2647,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "40_azatioprina_uveites_v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Uveítes Não-Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Uveítes Não-Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Certolizumabe Pegol",
@@ -2467,7 +2661,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "450_certolizumabe_pegol_espondilite_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200mg/ml injetável – seringa preenchida"
     },
     {
         "medicamento": "Sirolimo",
@@ -2480,7 +2675,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "453_sirolimo_transplante_hepatico_pediatrico_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Sirolimo conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Sirolimo conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 2 mg – drágea"
     },
     {
         "medicamento": "Tafamidis",
@@ -2493,7 +2689,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "455_tafamidis_amiloidoses_associadas_a_transtirretina__v1.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Amiloidoses Associadas à Transtirretina (E85.0, E85.1, E85.8), apresentando quadro clínico ativo e com indicação formal para uso de Tafamidis conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Amiloidoses Associadas à Transtirretina (E85.0, E85.1, E85.8), apresentando quadro clínico ativo e com indicação formal para uso de Tafamidis conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20mg - cápsula, 61mg - cápsulas"
     },
     {
         "medicamento": "LEVETIRACETAM",
@@ -2506,7 +2703,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "456_levetiracetam_epilepsia_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de LEVETIRACETAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de LEVETIRACETAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "250 mg, 500 mg, 750 mg, 1000 mg por comprimido, 100 mg/mL solução oral – frasco de 100mL e 100 mg/mL solução oral – frasco de 150mL"
     },
     {
         "medicamento": "Memantina",
@@ -2519,7 +2717,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "458_memantina_alzheimer_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Memantina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Alzheimer (G30.0, G30.1, G30.8, F00.0, F00.1, F00.2), apresentando quadro clínico ativo e com indicação formal para uso de Memantina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10mg - comprimido"
     },
     {
         "medicamento": "BOSENTANA",
@@ -2532,7 +2731,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "45_bosentana_hipertensao_arterial_pulmonar_v9_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de BOSENTANA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de BOSENTANA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "62,5 mg e 125 mg – comprimido revestido"
     },
     {
         "medicamento": "Ciclosporina",
@@ -2545,7 +2745,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "461_ciclosporina_dermatite_atopica_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatite Atópica (L20.0, L20.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatite Atópica (L20.0, L20.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "ETANERCEPTE",
@@ -2558,7 +2759,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "461_etanercepte_psoriase__v19.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "25 mg injetável – frasco ampola; 50 mg – seringa preenchida – Originador (Enbrel®) e Biossimilar (Brenzys®)"
     },
     {
         "medicamento": "USTEQUINUMABE",
@@ -2571,7 +2773,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "462_ustequinumabe_psoriase_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de USTEQUINUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de USTEQUINUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "45mg/0,5ml injetável – seringa preenchida"
     },
     {
         "medicamento": "Secuquinumabe",
@@ -2584,7 +2787,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "463_secuquinumabe_psoriase_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Secuquinumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "150 mg/mL solução injetável (seringa preenchida)"
     },
     {
         "medicamento": "Eltrombopague",
@@ -2597,7 +2801,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "464_eltrombopague_purpurati_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Eltrombopague conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Eltrombopague conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25mg e 50mg – comprimidos revestidos"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -2610,7 +2815,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "466_adalimumabe_uveite_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Uveítes não Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Uveítes não Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "40 mg injetável - seringa preenchida"
     },
     {
         "medicamento": "DICLORIDRATO DE SAPROPTERINA",
@@ -2623,7 +2829,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "469_dicloridrato_de_sapropterina_fenilcetonuria_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Fenilcetonúria (E70.0, E70.1), apresentando quadro clínico ativo e com indicação formal para uso de DICLORIDRATO DE SAPROPTERINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Fenilcetonúria (E70.0, E70.1), apresentando quadro clínico ativo e com indicação formal para uso de DICLORIDRATO DE SAPROPTERINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg - comprimido"
     },
     {
         "medicamento": "METILPREDNISOLONA",
@@ -2636,7 +2843,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "470_metilprednisolona_uveite_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Uveítes não infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Uveítes não infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de METILPREDNISOLONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg solução injetável - ampola"
     },
     {
         "medicamento": "Rasagilina",
@@ -2649,7 +2857,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "471_rasagilina_parkinson_v5_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Rasagilina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Rasagilina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg – comprimido"
     },
     {
         "medicamento": "RISEDRONATO",
@@ -2662,7 +2871,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "472_risedronato_paget_v7_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de RISEDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de RISEDRONATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "35 mg - comprimido"
     },
     {
         "medicamento": "Ácido Zoledrônico",
@@ -2675,7 +2885,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "473_acido_zoledronico_paget_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Zoledrônico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Zoledrônico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg/100 mL - frasco com 100 mL de solução"
     },
     {
         "medicamento": "Infliximabe",
@@ -2688,7 +2899,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "479_infliximabe_retocolite__v9_10-24_2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg/mL injetável – frasco-ampola com 10mL"
     },
     {
         "medicamento": "Tobramicina",
@@ -2701,7 +2913,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "481_tobramicina_fibrose_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.0, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de Tobramicina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.0, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de Tobramicina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mg/5 mL solução para inalação"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -2714,7 +2927,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "483_adalimumabe_artrite_idiopatica_v23.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de ARTRITE IDIOPÁTICA JUVENIL (AIJ) (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de ARTRITE IDIOPÁTICA JUVENIL (AIJ) (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida; 40 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -2727,7 +2941,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "484_azatioprina_artrite_idiopatica_juvenil_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0), apresentando quadro clínico ativo e com indicação formal para uso de Azatioprina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "Ciclosporina",
@@ -2740,7 +2955,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "485_ciclosporina_artrite_idiopatica_juvenil_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/ml – solução oral – frasco de 50 ml"
     },
     {
         "medicamento": "Cloroquina",
@@ -2753,7 +2969,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "486_cloroquina_artrite_idiopatica_juvenil_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "150 mg – comprimido"
     },
     {
         "medicamento": "ETANERCEPTE",
@@ -2766,7 +2983,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "487_etanercepte_artrite_idiopatica_v15_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de ETANERCEPTE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – frasco-ampola; 50 mg – seringa preenchida – Originador (Enbrel®) e Biossimilar (Brenzys®)"
     },
     {
         "medicamento": "Hidroxicloroquina",
@@ -2779,7 +2997,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "488_hidroxicloroquina_artrite_idiopatica_juvenil_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0), apresentando quadro clínico ativo e com indicação formal para uso de Hidroxicloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "400 mg – comprimido"
     },
     {
         "medicamento": "Infliximabe",
@@ -2792,7 +3011,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "489_infliximabe_artrite_idiopatica_v10_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Infliximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg/ml injetável – frasco-ampola com 10ml"
     },
     {
         "medicamento": "LEFLUNOMIDA",
@@ -2805,7 +3025,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "490_leflunomida_artrite_idiopatica_v6_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de ARTRITE IDIOPÁTICA JUVENIL (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de ARTRITE IDIOPÁTICA JUVENIL (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de LEFLUNOMIDA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20 mg – comprimido"
     },
     {
         "medicamento": "NAPROXENO",
@@ -2818,7 +3039,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "491_naproxeno_artrite_idiopatica_juvenil_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de NAPROXENO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de NAPROXENO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "250mg e 500mg – comprimido"
     },
     {
         "medicamento": "Tocilizumabe",
@@ -2831,7 +3053,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "492_tocilizumabe_artrite_idiopatica_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Tocilizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Tocilizumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "20mg/ml injetável – frasco-ampola de 4ml"
     },
     {
         "medicamento": "Metotrexato",
@@ -2844,7 +3067,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "493_metotrexato_artrite_idiopatica_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Metotrexato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25mg/ml – injetável, frasco-ampola de 2ml; 2,5mg – comprimido"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -2857,7 +3081,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "494_sulfassalazina_artrite_idiopatica_v7_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de SULFASSALAZINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -2870,7 +3095,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "495_imunoglobulina_sindrome_inflamatoria_covid_v3_06-25.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à Covid-19 (B34.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à Covid-19 (B34.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,5 g e 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Dapagliflozina",
@@ -2883,7 +3109,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "498_dapagliflozina_estrategias_para_atenuar_a_progressao_da_doenca_renal_cronica_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5), apresentando quadro clínico ativo e com indicação formal para uso de Dapagliflozina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5), apresentando quadro clínico ativo e com indicação formal para uso de Dapagliflozina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg (por comprimido)"
     },
     {
         "medicamento": "Dapagliflozina",
@@ -2896,7 +3123,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "498_dapagliflozina_insuficiencia_cardiaca_com_ejecao_reduzida_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (I50.0; I50.1; I50.9), apresentando quadro clínico ativo e com indicação formal para uso de Dapagliflozina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (I50.0; I50.1; I50.9), apresentando quadro clínico ativo e com indicação formal para uso de Dapagliflozina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg (por comprimido)"
     },
     {
         "medicamento": "ALFAELOSULFASE",
@@ -2909,7 +3137,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "499_alfaelosulfase_mucopolissacaridose_tipo_iv_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo IV A (E76.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAELOSULFASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo IV A (E76.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAELOSULFASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1mg/ml injetável solução injetável – por frasco ampola de 5ml"
     },
     {
         "medicamento": "Certolizumabe Pegol",
@@ -2922,7 +3151,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "500_certolizumabe_pegol_artrite_psoriasica_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200mg/ml injetável (por seringa preenchida)"
     },
     {
         "medicamento": "SIROLIMO",
@@ -2935,7 +3165,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "509_sirolimo_linfangioleiomiomatose_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Linfangioleiomiomatose (J84.8), apresentando quadro clínico ativo e com indicação formal para uso de SIROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Linfangioleiomiomatose (J84.8), apresentando quadro clínico ativo e com indicação formal para uso de SIROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg e 2 mg – drágea"
     },
     {
         "medicamento": "Budesonida",
@@ -2948,7 +3179,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "50_budesonida_asma_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Asma (J45.0, J45.1, J45.8), apresentando quadro clínico ativo e com indicação formal para uso de Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mcg – cápsula inalante, 400 mcg – cápsula inalante"
     },
     {
         "medicamento": "TACROLIMO",
@@ -2961,7 +3193,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "511_tacrolimo_transplante_cardiaco_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de TACROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg – 930 cápsulas; 5 mg – 248 cápsulas"
     },
     {
         "medicamento": "EVEROLIMO",
@@ -2974,7 +3207,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "512_everolimo_transplante_cardiaco_v5_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de EVEROLIMO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5 mg; 0,75 mg; 1 mg – comprimido"
     },
     {
         "medicamento": "TOFACITINIBE",
@@ -2987,7 +3221,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "513_tofacitinibe_retocolite_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de TOFACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de TOFACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg – comprimido revestido"
     },
     {
         "medicamento": "UPADACITINIBE",
@@ -3000,7 +3235,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "515_upadacitinibe_artrite_reumatoide_v10_3_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de UPADACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de UPADACITINIBE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "15 mg – comprimido revestido de liberação prolongada"
     },
     {
         "medicamento": "Nusinersena",
@@ -3013,7 +3249,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "516_nusinersena_ame_tipo1_v8_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 1 (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 1 (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,4 mg/ml solução injetável - frasco-ampola (5 ml)"
     },
     {
         "medicamento": "Nusinersena",
@@ -3026,7 +3263,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "516_nusinersena_ame_tipo_2_v5_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 2 (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 2 (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "2,4 mg/ml solução injetável - frasco-ampola (5 ml)"
     },
     {
         "medicamento": "Budesonida",
@@ -3039,7 +3277,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "51_budesonida_dpoc_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Pulmonar Obstrutiva Crônica (J44.0, J44.1, J44.8), apresentando quadro clínico ativo e com indicação formal para uso de Budesonida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mcg – cápsula inalante, 400 mcg – cápsula inalante"
     },
     {
         "medicamento": "Alfaepoetina",
@@ -3052,7 +3291,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "522_alfaepoetina_sindrome_mielodisplasica_de_baixo_risco_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Mielodisplásica de Baixo Risco (D46.0; D46.1; D46.4; D46.7), apresentando quadro clínico ativo e com indicação formal para uso de Alfaepoetina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Mielodisplásica de Baixo Risco (D46.0; D46.1; D46.4; D46.7), apresentando quadro clínico ativo e com indicação formal para uso de Alfaepoetina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "Micofenolato de Mofetila",
@@ -3065,7 +3305,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "523_micofenolato_de_mofetila_lupus_v9_06-25_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (LES) (L930; L931; M321; M328), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (LES) (L930; L931; M321; M328), apresentando quadro clínico ativo e com indicação formal para uso de Micofenolato de Mofetila conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "RISDIPLAM",
@@ -3078,7 +3319,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "523_risdiplam_ame_tipo_ii_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo II (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo II (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,75 mg/mL pó para solução oral – frasco 80 mL"
     },
     {
         "medicamento": "RISDIPLAM",
@@ -3091,7 +3333,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "523_risdiplam_ame_tipo_i_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo I (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo I (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,75 mg/mL pó para solução oral – frasco 80 mL"
     },
     {
         "medicamento": "CABERGOLINA",
@@ -3104,7 +3347,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "52_cabergolina_acromegalia_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de CABERGOLINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de CABERGOLINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5 mg – comprimido"
     },
     {
         "medicamento": "Ácido Zoledrônico",
@@ -3117,7 +3361,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "530_acido_zoledronico_osteoporose_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.1, M82.0, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Zoledrônico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.1, M82.0, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Zoledrônico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "5 mg/100 mL - frasco com 100 mL de solução"
     },
     {
         "medicamento": "Cabergolina",
@@ -3130,7 +3375,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "53_cabergolina_hiperprolactinemia_v17.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hiperprolactinemia (E22.1), apresentando quadro clínico ativo e com indicação formal para uso de Cabergolina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hiperprolactinemia (E22.1), apresentando quadro clínico ativo e com indicação formal para uso de Cabergolina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5mg – comprimido"
     },
     {
         "medicamento": "CALCIPOTRIOL",
@@ -3143,7 +3389,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "54_calcipotriol_psoriase_v12.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de CALCIPOTRIOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de CALCIPOTRIOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mcg/g (0,005%) pomada – bisnaga de 30g"
     },
     {
         "medicamento": "Calcitonina",
@@ -3156,7 +3403,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "55_calcitonina_doenca_paget_v19.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitonina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Paget - Osteíte Deformante (M88.0, M88.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitonina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 UI/dose spray nasal – frasco"
     },
     {
         "medicamento": "Calcitonina",
@@ -3169,7 +3417,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "56_calcitonina_osteoporose_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitonina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitonina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 UI/dose spray nasal – frasco"
     },
     {
         "medicamento": "Calcitriol",
@@ -3182,7 +3431,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "57_calcitriol_hipoparatireoidismo_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Hipoparatireoidismo (E20.0, E20.1, E20.8, E89.2), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Hipoparatireoidismo (E20.0, E20.1, E20.8, E89.2), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Calcitriol",
@@ -3195,7 +3445,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "59_calcitriol_osteoporose_01_24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Calcitriol",
@@ -3208,7 +3459,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "60_calcitriol_raquitismo_osteomalacia_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Raquitismo e Osteomalácia (E55.0, E55.9, E64.3, E83.3, M83.0, M83.1, M83.2, M83.3, M83.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Raquitismo e Osteomalácia (E55.0, E55.9, E64.3, E83.3, M83.0, M83.1, M83.2, M83.3, M83.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Certolizumabe Pegol",
@@ -3221,7 +3473,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "61_certolizumabe_pegol_artrite_reumatoide_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Certolizumabe Pegol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mg/mL injetável – seringa preenchida"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3234,7 +3487,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "64_ciclofosfamida_esclerose_sistemica_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esclerose Sistêmica (M34.0, M34.1, M34.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3247,7 +3501,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "65_ciclofosfamida_lupus_erimatoso_sistemico_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3260,7 +3515,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "66_ciclofosfamida_purpura_v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3273,7 +3529,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "67b_ciclofosfamida_sindrome_nefrotica_criancas_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3286,7 +3543,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "67_ciclofosfamida_sindrome_nefrotica_adultos_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Adultos (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8, N04.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Adultos (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8, N04.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3299,7 +3557,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "68_ciclofosfamida_anemia_hemolitica_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -3312,7 +3571,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": true,
         "motivo_revisao": "A quantidade máxima mensal não está especificada no documento.",
         "arquivo_origem": "6_adalimumabe_artrite_reumatoide_v40.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3325,7 +3585,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "71_ciclosporina_artrite_psoriasica_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3338,7 +3599,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "72_ciclosporina_artrite_reumatoide_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3351,7 +3613,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "73_ciclosporina_dermatomiosite_v3.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3364,7 +3627,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "75_ciclosporina_lupus_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3377,7 +3641,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "76_ciclosporina_miastenia_gravis_v9.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/ml – solução oral – frasco de 50 ml"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3390,7 +3655,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "77_ciclosporina_psoriase_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3403,7 +3669,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "78_ciclosporina_retocolite_ulcerativa_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Retocolite Ulcerativa (K51.0, K51.2, K51.3, K51.5, K51.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3416,7 +3683,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "79b_ciclosporina_sindrome_nefrotica_crianca_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Crianças e Adolescentes (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3429,7 +3697,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "79_ciclosporina_sindrome_nefrotica_adultos_v10.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Adultos (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8, N04.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome Nefrótica Primária em Adultos (N04.0, N04.1, N04.2, N04.3, N04.4, N04.5, N04.6, N04.7, N04.8, N04.9), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg, 50 mg, 100 mg – cápsula"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -3442,7 +3711,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "7_adalimumabe_artrite_psoriasica_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3455,7 +3725,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "80_ciclosporina_transplante_cardiaco_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Cardíaco (T86.2, Z94.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg, 25 mg, 50 mg e 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3468,7 +3739,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "81_ciclosporina_transplantecoracaopulmao_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Coração ou Pulmão (Z94.2, Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Coração ou Pulmão (Z94.2, Z94.3), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3481,7 +3753,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "83_ciclosporina_transplante_hepatico_pediatria_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Hepático em Pediatria (T86.4, Z94.4), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3494,7 +3767,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "84_ciclosporina_transplante_de_medula_pancreas_v13.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante de Medula ou Pâncreas (Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3507,7 +3781,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "85_ciclosporina_transplante_renal_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3520,7 +3795,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "86_ciclosporina_uveites_v4.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Uveítes Não Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Uveítes Não Infecciosas (H30.1, H30.2, H30.8, H20.1, H15.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "25 mg, 50 mg e 100 mg – cápsula; 100 mg/mL solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciprofibrato",
@@ -3533,7 +3809,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "87_ciprofibrato_dislipidemia_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciprofibrato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciprofibrato conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – comprimido"
     },
     {
         "medicamento": "Ciproterona",
@@ -3546,7 +3823,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "89_ciproterona_puberdade_precoce_central_v19.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciproterona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciproterona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "ADALIMUMABE",
@@ -3559,7 +3837,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "8_adalimumabe_espondilite_v31.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Espondilite Ancilosante (M45, M46.8), apresentando quadro clínico ativo e com indicação formal para uso de ADALIMUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida; 40 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Ciproterona",
@@ -3572,7 +3851,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "90_ciproterona_ovarios_policistico_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Ovários Policísticos e Hirsutismo/Acne (E28.2, L68.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciproterona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Ovários Policísticos e Hirsutismo/Acne (E28.2, L68.0), apresentando quadro clínico ativo e com indicação formal para uso de Ciproterona conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – comprimido"
     },
     {
         "medicamento": "CLOBAZAM",
@@ -3585,7 +3865,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "91_clobazam_epilepsia_v18.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de CLOBAZAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Epilepsia (G40.0, G40.1, G40.2, G40.3, G40.4, G40.5, G40.6, G40.7, G40.8), apresentando quadro clínico ativo e com indicação formal para uso de CLOBAZAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg e 20 mg – comprimido"
     },
     {
         "medicamento": "Clopidogrel",
@@ -3598,7 +3879,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "93_clopidogrel_sindromescoronarianasagudas_12_22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndromes Coronarianas Agudas (I20.0, I20.1, I21.0, I21.1, I21.2, I21.3, I21.4, I21.9, I22.0, I22.1, I22.8, I22.9, I23.0, I23.1, I23.2, I23.3, I23.4, I23.5, I23.6, I23.8, I24.0, I24.8, I24.9), apresentando quadro clínico ativo e com indicação formal para uso de Clopidogrel conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndromes Coronarianas Agudas (I20.0, I20.1, I21.0, I21.1, I21.2, I21.3, I21.4, I21.9, I22.0, I22.1, I22.8, I22.9, I23.0, I23.1, I23.2, I23.3, I23.4, I23.5, I23.6, I23.8, I24.0, I24.8, I24.9), apresentando quadro clínico ativo e com indicação formal para uso de Clopidogrel conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "75 mg – comprimido"
     },
     {
         "medicamento": "Cloroquina",
@@ -3611,7 +3893,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "94_cloroquina_artrite_reumatoide_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "150 mg – comprimido"
     },
     {
         "medicamento": "Cloroquina",
@@ -3624,7 +3907,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "95_cloroquina_lupus_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8), apresentando quadro clínico ativo e com indicação formal para uso de Cloroquina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "150 mg – comprimido"
     },
     {
         "medicamento": "CLOZAPINA",
@@ -3637,7 +3921,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "96_clozapina_esquizofrenia_v18.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Esquizofrenia (F20.0, F20.1, F20.2, F20.3, F20.4, F20.5, F20.6, F20.8), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "CLOZAPINA",
@@ -3650,7 +3935,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "97_clozapina_transtorno_esquizoafetivo_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Transtorno Esquizoafetivo (F25.0, F25.1, F25.2), apresentando quadro clínico ativo e com indicação formal para uso de CLOZAPINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 100 mg – comprimido"
     },
     {
         "medicamento": "Adalimumabe",
@@ -3663,7 +3949,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "9_adalimumabe_crohn_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Adalimumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Crohn (K50.0, K50.1, K50.8), apresentando quadro clínico ativo e com indicação formal para uso de Adalimumabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg injetável – seringa preenchida; 40 mg injetável – frasco-ampola – Biossimilar (Amgevita®)"
     },
     {
         "medicamento": "Abatacepte",
@@ -3676,7 +3963,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "abatacepte_artrite_idiopatica_v22.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Abatacepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Idiopática Juvenil (M08.0, M08.1, M08.2, M08.3, M08.4, M08.8, M08.9), apresentando quadro clínico ativo e com indicação formal para uso de Abatacepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "250 mg injetável – frasco-ampola (utilização por via intravenosa)"
     },
     {
         "medicamento": "Abatacepte",
@@ -3689,7 +3977,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "abatacepte_artrite_reumatoide_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Abatacepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Reumatoide (M05.0, M05.1, M05.2, M05.3, M05.8, M06.0, M06.8), apresentando quadro clínico ativo e com indicação formal para uso de Abatacepte conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "125 mg injetável – seringa preenchida (utilização por via subcutânea)"
     },
     {
         "medicamento": "Ácido Ursodesoxicólico",
@@ -3702,7 +3991,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "acido_ursodesoxicolico_colangite_biliar_primaria_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Colangite Biliar Primária (K74.3), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Ursodesoxicólico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Colangite Biliar Primária (K74.3), apresentando quadro clínico ativo e com indicação formal para uso de Ácido Ursodesoxicólico conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg, 150 mg, 300 mg – comprimido"
     },
     {
         "medicamento": "Acitretina",
@@ -3715,7 +4005,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "acitretina_ictioses_hereditarias_v8_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Ictioses Hereditárias (Q80.0, Q80.1, Q80.2, Q80.3, Q80.8, Q80.9), apresentando quadro clínico ativo e com indicação formal para uso de Acitretina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Ictioses Hereditárias (Q80.0, Q80.1, Q80.2, Q80.3, Q80.8, Q80.9), apresentando quadro clínico ativo e com indicação formal para uso de Acitretina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg – comprimido, 25 mg – comprimido"
     },
     {
         "medicamento": "Acitretina",
@@ -3728,7 +4019,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "acitretina_psoriase__v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Acitretina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de Acitretina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg e 25 mg – cápsula"
     },
     {
         "medicamento": "ALFAEPOETINA",
@@ -3741,7 +4033,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "alfaepoetina_falciforme_v8.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença Falciforme (D57.0, D57.1, D57.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença Falciforme (D57.0, D57.1, D57.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAEPOETINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1.000 UI, 2.000 UI, 3.000 UI, 4.000 UI e 10.000 UI injetável – frasco-ampola"
     },
     {
         "medicamento": "ALFAGALSIDASE",
@@ -3754,7 +4047,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "alfagalsidade_doenca_de_fabry_v6.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Fabry (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAGALSIDASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Fabry (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de ALFAGALSIDASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1 mg/ml (frasco ampola de 3,5 ml)"
     },
     {
         "medicamento": "Alfataliglicerase",
@@ -3767,7 +4061,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "alfataliglicerase_v23_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de Alfataliglicerase conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Gaucher (E75.2), apresentando quadro clínico ativo e com indicação formal para uso de Alfataliglicerase conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 UI injetável – frasco"
     },
     {
         "medicamento": "BEZAFIBRATO",
@@ -3780,7 +4075,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "bezafibrato_dislipidemia_v7.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de BEZAFIBRATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dislipidemia para prevenção de eventos cardiovasculares e pancreatite (E78.0, E78.1, E78.2, E78.3, E78.4, E78.5, E78.6, E78.8), apresentando quadro clínico ativo e com indicação formal para uso de BEZAFIBRATO conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "200 mg – drágea ou comprimido; 400 mg – comprimido de desintegração lenta"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3793,7 +4089,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "ciclofosfamida_sindrome_de_falencia_medular_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D60.0, D60.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D60.0, D60.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "50 mg – drágea"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3806,7 +4103,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "ciclosporina_anemia_hemolitica_autoimune_v11.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "Ciclosporina",
@@ -3819,7 +4117,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "ciclosporina_sindrome_de_falencia_medular_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D60.0, D60.1, D61.0, D61.1, D61.2, D61.3, D61.8, Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D60.0, D60.1, D61.0, D61.1, D61.2, D61.3, D61.8, Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de Ciclosporina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "10 mg – cápsula; 25 mg – cápsula; 50 mg – cápsula; 100 mg – cápsula; 100 mg/mL – solução oral – frasco de 50 mL"
     },
     {
         "medicamento": "CODEÍNA",
@@ -3832,7 +4131,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "codeina_dor_v21.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de CODEÍNA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (R52.1, R52.2), apresentando quadro clínico ativo e com indicação formal para uso de CODEÍNA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "3 mg/mL solução oral – frasco de 120mL; 30 mg/ml injetável – ampola de 2mL; 30 mg e 60 mg – comprimido"
     },
     {
         "medicamento": "DANAZOL",
@@ -3845,7 +4145,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "danazol_endometriose_v15.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de DANAZOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "100 mg – cápsula; 200 mg – cápsula"
     },
     {
         "medicamento": "Eltrombopague",
@@ -3858,7 +4159,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "eltrombopague_sindrome_de_falencia_medular__antigo_aa__v3_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D61.0, D61.1, D61.2, D61.3, D61.8), apresentando quadro clínico ativo e com indicação formal para uso de Eltrombopague conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular (D61.0, D61.1, D61.2, D61.3, D61.8), apresentando quadro clínico ativo e com indicação formal para uso de Eltrombopague conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "25 mg e 50 mg – comprimido"
     },
     {
         "medicamento": "Enoxaparina Sódica",
@@ -3871,7 +4173,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "enoxaparina_tromboembolismo_v16.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Prevenção de Tromboembolismo Venoso em Gestantes com Trombofilia (D68.8, I82.0, I82.1, I82.2, I82.3, I82.8, O22.3, O22.5), apresentando quadro clínico ativo e com indicação formal para uso de Enoxaparina Sódica conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Prevenção de Tromboembolismo Venoso em Gestantes com Trombofilia (D68.8, I82.0, I82.1, I82.2, I82.3, I82.8, O22.3, O22.5), apresentando quadro clínico ativo e com indicação formal para uso de Enoxaparina Sódica conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "40 mg/0,4 mL; 60 mg/0,6 mL – seringa preenchida"
     },
     {
         "medicamento": "FILGRASTIM",
@@ -3884,7 +4187,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "filgrastim_sindrome_de_falencia_medular__antigo_neutropenia_congenita__v6_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de SÍNDROME DE FALÊNCIA MEDULAR (D61.0, D61.1, D61.2, D61.3, D61.8, D70, Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de SÍNDROME DE FALÊNCIA MEDULAR (D61.0, D61.1, D61.2, D61.3, D61.8, D70, Z94.8), apresentando quadro clínico ativo e com indicação formal para uso de FILGRASTIM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "300 mcg injetável – frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -3897,7 +4201,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "imunoglobulina_sindrome_de_falencia_medular__antigo_apsv__v4_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular, Anemia Aplástica, Aplasia Pura de Série Vermelha, Neutropenia Congênita Grave (D60.0, D60.1), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Falência Medular, Anemia Aplástica, Aplasia Pura de Série Vermelha, Neutropenia Congênita Grave (D60.0, D60.1), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "0,5; 1,0; 2,5; 5,0 g injetável – frasco"
     },
     {
         "medicamento": "Ciclofosfamida",
@@ -3910,7 +4215,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": true,
         "motivo_revisao": "A quantidade máxima mensal não está especificada no documento, o que gera ambiguidade.",
         "arquivo_origem": "lupus_v24.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8, M321,L931,M328), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Lúpus Eritematoso Sistêmico (L93.0, L93.1, M32.1, M32.8, M321,L931,M328), apresentando quadro clínico ativo e com indicação formal para uso de Ciclofosfamida conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "Ciclofosfamida 50 mg – drágea"
     },
     {
         "medicamento": "Naproxeno",
@@ -3923,7 +4229,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "naproxeno_dor_v5_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (M16, M16.0, M16.1, M16.4, M16.5, M16.6, M16.7, M16.9, M17, M17.0, M17.1, M17.2, M17.3, M17.4, M17.5, M17.9), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Dor Crônica (M16, M16.0, M16.1, M16.4, M16.5, M16.6, M16.7, M16.9, M17, M17.0, M17.1, M17.2, M17.3, M17.4, M17.5, M17.9), apresentando quadro clínico ativo e com indicação formal para uso de Naproxeno conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "500 mg – comprimido"
     },
     {
         "medicamento": "PARICALCITOL",
@@ -3936,7 +4243,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "paricalcitol_disturbio_mineral_osseo_v8_1_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de PARICALCITOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de PARICALCITOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5,0 mcg/mL – ampola de 1 mL"
     },
     {
         "medicamento": "Rituximabe",
@@ -3949,7 +4257,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "rituximabe_-_vasculite_v2_2_.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Vasculite Associada aos Anticorpos Anti-Citoplasma de Neutrófilos (M31.3, M31.7), apresentando quadro clínico ativo e com indicação formal para uso de Rituximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Vasculite Associada aos Anticorpos Anti-Citoplasma de Neutrófilos (M31.3, M31.7), apresentando quadro clínico ativo e com indicação formal para uso de Rituximabe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "Rituximabe 500mg injetável- frasco ampola de 50ml; Rituximabe 100mg injetável – frasco ampola de 10ml (somente para complementação da dose)"
     },
     {
         "medicamento": "RIVASTIGMINA",
@@ -3962,7 +4271,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "rivastigmina_parkinson_v2.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de RIVASTIGMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de RIVASTIGMINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "1,5 mg; 3 mg; 4,5 mg; 6 mg – cápsula; 9 mg; 18 mg – adesivo transdérmico"
     },
     {
         "medicamento": "Tofacitinibe",
@@ -3975,7 +4285,8 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "tofacitinibe_artrite_psoriasica_v5.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Tofacitinibe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado."
+        "anamnese_padrao": "Paciente com diagnóstico de Artrite Psoriásica (M07.0, M07.2, M07.3), apresentando quadro clínico ativo e com indicação formal para uso de Tofacitinibe conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
+        "dosagens_array": "5 mg – comprimido"
     },
     {
         "medicamento": "TRIEXIFENIDIL",
@@ -3988,6 +4299,7 @@ const bancoDeDados = [
         "necessita_revisao_manual": false,
         "motivo_revisao": "",
         "arquivo_origem": "triexifenidil_parkinson_v14.pdf",
-        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de TRIEXIFENIDIL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente."
+        "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de TRIEXIFENIDIL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
+        "dosagens_array": "5 mg – comprimido"
     }
 ];

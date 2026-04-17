@@ -41,7 +41,8 @@ function atualizarDiagnosticos() {
         selectDosagem.disabled = false;
 
         // Preencher dropdown de dosagens
-        let dosagensBrutas = bancoDeDados[id].dosagens_apresentacoes || "";
+        // Usa dosagens_array se existir, senão usa dosagens_apresentacoes
+        let dosagensBrutas = bancoDeDados[id].dosagens_array || bancoDeDados[id].dosagens_apresentacoes || "";
         let dosagensArray = processarDosagens(dosagensBrutas);
 
         dosagensArray.forEach(dosagem => {
@@ -73,6 +74,11 @@ function atualizarDiagnosticos() {
 
 function processarDosagens(dosagensStr) {
     if (!dosagensStr) return [];
+    
+    // Detecta | como separador primário (novo formato do Excel)
+    if (dosagensStr.includes('|')) {
+        return dosagensStr.split('|').map(d => d.trim()).filter(d => d);
+    }
     
     // Separa por vírgula, mas evita separator dentro de números decimais (ex: 0,5 mg)
     let dosagens = [];
