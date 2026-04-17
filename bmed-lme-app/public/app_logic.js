@@ -102,33 +102,23 @@ function processarDosagens(dosagensStr) {
         return dosagensStr.split('|').map(d => d.trim()).filter(d => d);
     }
     
-    // Separa por vírgula, mas evita separator dentro de números decimais (ex: 0,5 mg)
-    let dosagens = [];
-    let atual = "";
-    let virgulaCount = 0;
-    
-    for (let i = 0; i < dosagensStr.length; i++) {
-        let char = dosagensStr[i];
-        if (char === ',') {
-            virgulaCount++;
-        }
-        if (virgulaCount === 1 && char === ',') {
-            if (atual.trim()) {
-                dosagens.push(atual.trim());
-            }
-            atual = "";
-            virgulaCount = 0;
-        } else {
-            atual += char;
-        }
-    }
-    if (atual.trim()) {
-        dosagens.push(atual.trim());
+    // Detecta ; como separador
+    if (dosagensStr.includes(';')) {
+        return dosagensStr.split(';').map(d => d.trim()).filter(d => d);
     }
     
-    // Se não conseguiu separar, tenta por ponto e vírgula
-    if (dosagens.length <= 1 && dosagensStr.includes(';')) {
-        dosagens = dosagensStr.split(';').map(d => d.trim()).filter(d => d);
+    // PROTEGE DECIMAIS: substitui "0,25" por "0DECIMAL25" temporariamente
+    let sProtegido = dosagensStr.replace(/(\d),(\d)/g, '$1DECIMAL$2');
+    
+    // Separa por vírgula, mas evita decimais
+    let dosagens = sProtegido.split(',').map(d => d.trim()).filter(d => d);
+    
+    // Restaura decimais em cada dose
+    dosagens = dosagens.map(d => d.replace(/(\d)DECIMAL(\d)/g, '$1,$2'));
+    
+    // Se não separou ou só tem 1, retorna array com string original
+    if (dosagens.length <= 1) {
+        return [dosagensStr];
     }
     
     return dosagens;
