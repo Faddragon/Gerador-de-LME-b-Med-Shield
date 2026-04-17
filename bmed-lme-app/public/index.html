@@ -115,9 +115,13 @@
                         </div>
                         <div class="col-12 mb-2">
                             <label class="form-label small mb-0 fw-bold">Dosagem / Apresentação</label>
-                            <select id="select_dosagem" class="form-select">
+                            <select id="select_dosagem" class="form-select" onchange="verificarOutro()">
                                 <option value="">Selecione primeiro o medicamento...</option>
                             </select>
+                        </div>
+                        <div class="col-12 mb-2" id="div_dosagem_outra" style="display:none;">
+                            <label class="form-label small mb-0 fw-bold">Outra Dosagem (digite)</label>
+                            <input type="text" id="input_dosagem_outra" class="form-control" placeholder="Ex: 10 mg - comprimido">
                         </div>
                     </div>
                     <div class="row">

@@ -52,6 +52,12 @@ function atualizarDiagnosticos() {
             selectDosagem.appendChild(opt);
         });
 
+        // Opção "outra" (digitada)
+        let optOutra = document.createElement("option");
+        optOutra.value = "outra";
+        optOutra.textContent = "Digitar outra dose...";
+        selectDosagem.appendChild(optOutra);
+
         // Auto-selecionar se só houver uma opção
         if (dosagensArray.length === 1) {
             selectDosagem.value = dosagensArray[0];
@@ -69,6 +75,22 @@ function atualizarDiagnosticos() {
     } else {
         selectCid.disabled = true;
         selectDosagem.disabled = true;
+    }
+    
+    // Esconde campo "outra dose"
+    document.getElementById('div_dosagem_outra').style.display = 'none';
+    document.getElementById('input_dosagem_outra').value = '';
+}
+
+function verificarOutro() {
+    const selectDosagem = document.getElementById('select_dosagem');
+    const divOutra = document.getElementById('div_dosagem_outra');
+    
+    if (selectDosagem.value === 'outra') {
+        divOutra.style.display = 'block';
+    } else {
+        divOutra.style.display = 'none';
+        document.getElementById('input_dosagem_outra').value = '';
     }
 }
 
@@ -202,6 +224,10 @@ function gerarPDFLME() {
         return alert("Atenção: Por favor, selecione a Dosagem/Apresentação do medicamento.");
     }
 
+    if (selectDosagem.value === 'outra' && !document.getElementById('input_dosagem_outra').value) {
+        return alert("Atenção: Por favor, digite a dosagem.");
+    }
+
     const dadosProtocolo = bancoDeDados[id];
 
     // Preenche o modal
@@ -271,7 +297,12 @@ async function confirmarEGerarPDF() {
     const id = selectMed.value;
 
     let nomeMed = bancoDeDados[id].medicamento || "";
-    let dosagemSelecionada = selectDosagem.value || bancoDeDados[id].dosagens_apresentacoes || "";
+    let dosagemSelecionada = "";
+    if (selectDosagem.value === 'outra') {
+        dosagemSelecionada = document.getElementById('input_dosagem_outra').value || "";
+    } else {
+        dosagemSelecionada = selectDosagem.value || "";
+    }
     let diagnosticoNome = bancoDeDados[id].diagnosticos || "";
     let medicamentoComDose = `${nomeMed} - ${dosagemSelecionada}`;
 
