@@ -254,7 +254,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "11_alfadornase_fibrose_cistica_v18_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Fibrose Cística (E84.0, E84.8), apresentando quadro clínico ativo e com indicação formal para uso de ALFADORNASE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - ampola|5 mg - ampola"
+        "dosagens_array": "2,5 mg – ampola"
     },
     {
         "medicamento": "Fenoterol",
@@ -310,7 +310,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "124_fingolimode_esclerose_multipla_v22_2_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Esclerose Múltipla (G35), apresentando quadro clínico ativo e com indicação formal para uso de Fingolimode conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
-        "dosagens_array": "0 - cápsula|5 mg - cápsula"
+        "dosagens_array": "0,5 mg – cápsula"
     },
     {
         "medicamento": "FLUDROCORTISONA",
@@ -324,7 +324,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "125_fludrocortisona_hiperplasia_adrenal_congenita_v15.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Hiperplasia Adrenal Congênita (E25.0), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - comprimido|1 mg - comprimido"
+        "dosagens_array": "0,1 mg – comprimido"
     },
     {
         "medicamento": "FLUDROCORTISONA",
@@ -338,7 +338,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "126_fludrocortisona_insuficiencia_adrenal_primariav13.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Insuficiência Adrenal Primária – Doença de Addison (E27.1; E27.4), apresentando quadro clínico ativo e com indicação formal para uso de FLUDROCORTISONA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - comprimido|1 mg - comprimido"
+        "dosagens_array": "0,1 mg – comprimido"
     },
     {
         "medicamento": "FORMOTEROL",
@@ -506,7 +506,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "137_gosserrelina_endometriose_v13.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de GOSSERRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - seringa preenchida|6 mg - seringa preenchida|10 - seringa preenchida|8 mg injetável - seringa preenchida"
+        "dosagens_array": "3,6 mg - seringa preenchida|10,8 mg injetável - seringa preenchida"
     },
     {
         "medicamento": "Goserrelina",
@@ -520,7 +520,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "138_gosserrelina_leiomioma_v12.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - seringa preenchida|6 mg - seringa preenchida|10 - seringa preenchida|8 mg injetável - seringa preenchida"
+        "dosagens_array": "3,6 mg - seringa preenchida|10,8 mg injetável - seringa preenchida"
     },
     {
         "medicamento": "Goserrelina",
@@ -534,7 +534,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "139_gosserrelina_puberdade_precoce_v15.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Puberdade Precoce Central (E22.8), apresentando quadro clínico ativo e com indicação formal para uso de Goserrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - seringa preenchida|6 mg - seringa preenchida|10 - seringa preenchida|8 mg injetável - seringa preenchida"
+        "dosagens_array": "3,6 mg - seringa preenchida|10,8 mg injetável - seringa preenchida"
     },
     {
         "medicamento": "ALFAEPOETINA",
@@ -632,7 +632,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "146_imunoglobulina_anemia_hemolitica_v4_2_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Anemia Hemolítica Autoimune (D59.0, D59.1), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -646,7 +646,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "148_imunoglobulina_dermatomiosite_v13_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Dermatomiosite e Polimiosite (M33.0, M33.1, M33.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - frasco|5g - frasco|1g - frasco|5 - frasco|0g injetável - frasco"
+        "dosagens_array": "0,5g - frasco|1g - frasco|5,0g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -660,7 +660,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "149_imunoglobulina_hiv_v10.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Doença pelo HIV Resultando em Outras Doenças (B20.0, B20.1, B20.2, B20.3, B20.4, B20.5, B20.6, B20.7, B20.8, B20.9, B22.0, B22.1, B22.2, B22.7, B23.0, B23.1, B23.2, B23.8, B24), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "ALFAEPOETINA",
@@ -688,7 +688,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "150_imunoglobulina_imunodeficiencia_v15.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Imunodeficiência Primária com Predominância de Defeitos de Anticorpos (D80.0, D80.1, D80.3, D80.5, D80.6, D80.7, D80.8, D81.0, D81.1, D81.2, D81.3, D81.4, D81.5, D81.6, D81.7, D81.8, D82.0, D82.1, D83.0, D83.2, D83.8), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -702,7 +702,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "151_imunoglobulina_miastenia_gravis_v14.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Miastenia Gravis (G70.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -716,7 +716,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "152_imunoglobulina_purpura_v20_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Púrpura Trombocitopênica Idiopática (D69.3), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -730,7 +730,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "153_imunoglobulina_guillain_barre_v20_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Guillain-Barré (G61.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Imunoglobulina Humana",
@@ -744,7 +744,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "154_imunoglobulina_transplante_renal_v14.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Imunossupressão no Transplante Renal (T86.1, Z94.0), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Infliximabe",
@@ -884,7 +884,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "167_leuprorrelina_leiomioma_v9_10-24.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - frasco-ampola|75 mg injetável - frasco-ampola"
+        "dosagens_array": "3,75 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Leuprorrelina",
@@ -912,7 +912,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "169_leuprorrelina_endometriose_v10_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de Leuprorrelina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - frasco-ampola|75 mg injetável - frasco-ampola"
+        "dosagens_array": "3,75 mg injetável – frasco-ampola"
     },
     {
         "medicamento": "Mesalazina",
@@ -1360,7 +1360,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "211_pramipexol_parkinson_v13_09-24_2.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Doença de Parkinson (G20), apresentando quadro clínico ativo e com indicação formal para uso de Pramipexol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - comprimido|125 mg - comprimido|0 - comprimido|25 mg - comprimido|1 mg - comprimido"
+        "dosagens_array": "0,125 mg - comprimido|0,25 mg - comprimido|1 mg - comprimido"
     },
     {
         "medicamento": "Pravastatina",
@@ -1612,7 +1612,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "232_somatropina_hipopituitarismo_v25_9_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Deficiência de Hormônio do Crescimento – Hipopituitarismo (E23.0), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "4 UI injetável (1 - ampola), 12 UI injetável (4 mg por frasco-ampola)|33 mg por frasco - ampola), 12 UI injetável (4 mg por frasco-ampola)"
+        "dosagens_array": "4 UI injetável (1,33 mg por frasco-ampola)|12 UI injetável (4 mg por frasco-ampola)"
     },
     {
         "medicamento": "Somatropina",
@@ -1626,7 +1626,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "233_somatropina_sindrome_turner_v20.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Síndrome de Turner (Q96.0, Q96.1, Q96.2, Q96.3, Q96.4, Q96.8), apresentando quadro clínico ativo e com indicação formal para uso de Somatropina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "4 UI injetável (1 - ampola), 12 UI injetável (4 mg por frasco-ampola)|33 mg por frasco - ampola), 12 UI injetável (4 mg por frasco-ampola)"
+        "dosagens_array": "4 UI injetável (1,33 mg por frasco-ampola)|12 UI injetável (4 mg por frasco-ampola)"
     },
     {
         "medicamento": "SULFASSALAZINA",
@@ -2326,7 +2326,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "293_calcitriol_disturbio_mineral_osseo_drc_v22.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - cápsula|25 mcg - cápsula"
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Laronidase",
@@ -2340,7 +2340,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "297_laronidase_mucopolissacarisose_tipo_i_v4.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Mucopolissacaridose do Tipo I (E76.0), apresentando quadro clínico ativo e com indicação formal para uso de Laronidase conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - frasco com 5 mL|58 mg/ml injetável - frasco com 5 mL"
+        "dosagens_array": "0,58 mg/ml injetável - frasco com 5 mL"
     },
     {
         "medicamento": "Idursulfase Alfa",
@@ -2368,7 +2368,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "299_triptorrelina_leiomioma_de_utero_v3_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Leiomioma do Útero (D25.0, D25.1, D25.2), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - frasco-ampola|75 mg - frasco-ampola|11 - frasco-ampola|25 mg injetável - frasco-ampola"
+        "dosagens_array": "3,75 mg - frasco-ampola|11,25 mg injetável - frasco-ampola"
     },
     {
         "medicamento": "Azatioprina",
@@ -2410,7 +2410,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "301_triptorrelina_endometriose_v3.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Endometriose (N80.0, N80.1, N80.2, N80.3, N80.4, N80.5, N80.8), apresentando quadro clínico ativo e com indicação formal para uso de TRIPTORRELINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "3 - frasco-ampola|75 mg - frasco-ampola|11 - frasco-ampola|25 mg injetável - frasco-ampola"
+        "dosagens_array": "3,75 mg - frasco-ampola|11,25 mg injetável - frasco-ampola"
     },
     {
         "medicamento": "TOFACITINIBE",
@@ -2732,7 +2732,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "45_bosentana_hipertensao_arterial_pulmonar_v9_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Hipertensão Pulmonar (I27.0, I27.2, I27.8), apresentando quadro clínico ativo e com indicação formal para uso de BOSENTANA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "62 - comprimido revestido|5 mg - comprimido revestido|125 mg - comprimido revestido"
+        "dosagens_array": "62,5 mg - comprimido revestido|125 mg - comprimido revestido"
     },
     {
         "medicamento": "Ciclosporina",
@@ -2774,7 +2774,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "462_ustequinumabe_psoriase_v4.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de USTEQUINUMABE conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente. Paciente refratário, intolerante ou com contraindicação ao tratamento padrão prévio estipulado.",
-        "dosagens_array": "45mg/0 - seringa preenchida|5ml injetável - seringa preenchida"
+        "dosagens_array": "45mg/0,5ml injetável – seringa preenchida"
     },
     {
         "medicamento": "Secuquinumabe",
@@ -3096,7 +3096,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "495_imunoglobulina_sindrome_inflamatoria_covid_v3_06-25.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à Covid-19 (B34.2), apresentando quadro clínico ativo e com indicação formal para uso de Imunoglobulina Humana conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco|5 g - frasco|5 - frasco|0 g injetável - frasco"
+        "dosagens_array": "2,5 g - frasco|5,0 g injetável - frasco"
     },
     {
         "medicamento": "Dapagliflozina",
@@ -3250,7 +3250,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "516_nusinersena_ame_tipo1_v8_06-25_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 1 (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco-ampola (5 ml)|4 mg/ml solução injetável - frasco-ampola (5 ml)"
+        "dosagens_array": "2,4 mg/ml solução injetável - frasco-ampola (5 ml)"
     },
     {
         "medicamento": "Nusinersena",
@@ -3264,7 +3264,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "516_nusinersena_ame_tipo_2_v5_06-25_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo 2 (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de Nusinersena conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "2 - frasco-ampola (5 ml)|4 mg/ml solução injetável - frasco-ampola (5 ml)"
+        "dosagens_array": "2,4 mg/ml solução injetável - frasco-ampola (5 ml)"
     },
     {
         "medicamento": "Budesonida",
@@ -3320,7 +3320,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "523_risdiplam_ame_tipo_ii_v3.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo II (G12.1), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - frasco 80 mL|75 mg/mL pó para solução oral - frasco 80 mL"
+        "dosagens_array": "0,75 mg/mL pó para solução oral – frasco 80 mL"
     },
     {
         "medicamento": "RISDIPLAM",
@@ -3334,7 +3334,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "523_risdiplam_ame_tipo_i_v3.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Atrofia Muscular Espinhal 5q Tipo I (G12.0), apresentando quadro clínico ativo e com indicação formal para uso de RISDIPLAM conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - frasco 80 mL|75 mg/mL pó para solução oral - frasco 80 mL"
+        "dosagens_array": "0,75 mg/mL pó para solução oral – frasco 80 mL"
     },
     {
         "medicamento": "CABERGOLINA",
@@ -3348,7 +3348,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "52_cabergolina_acromegalia_v7.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Acromegalia (E22.0), apresentando quadro clínico ativo e com indicação formal para uso de CABERGOLINA conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - comprimido|5 mg - comprimido"
+        "dosagens_array": "0,5 mg – comprimido"
     },
     {
         "medicamento": "Ácido Zoledrônico",
@@ -3376,7 +3376,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "53_cabergolina_hiperprolactinemia_v17.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Hiperprolactinemia (E22.1), apresentando quadro clínico ativo e com indicação formal para uso de Cabergolina conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - comprimido|5mg - comprimido"
+        "dosagens_array": "0,5mg – comprimido"
     },
     {
         "medicamento": "CALCIPOTRIOL",
@@ -3390,7 +3390,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "54_calcipotriol_psoriase_v12.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Psoríase (L40.0, L40.1, L40.4, L40.8), apresentando quadro clínico ativo e com indicação formal para uso de CALCIPOTRIOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "50 mcg/g (0 - bisnaga de 30g|005%) pomada - bisnaga de 30g"
+        "dosagens_array": "50 mcg/g (0,005%) pomada – bisnaga de 30g"
     },
     {
         "medicamento": "Calcitonina",
@@ -3432,7 +3432,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "57_calcitriol_hipoparatireoidismo_v3.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Hipoparatireoidismo (E20.0, E20.1, E20.8, E89.2), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - cápsula|25 mcg - cápsula"
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Calcitriol",
@@ -3446,7 +3446,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "59_calcitriol_osteoporose_01_24.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Osteoporose (M80.0, M80.1, M80.2, M80.3, M80.4, M80.5, M80.8, M81.0, M81.1, M81.2, M81.3, M81.4, M81.5, M81.6, M81.8, M82.0, M82.1, M82.8, M85.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - cápsula|25 mcg - cápsula"
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Calcitriol",
@@ -3460,7 +3460,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "60_calcitriol_raquitismo_osteomalacia_v7.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Raquitismo e Osteomalácia (E55.0, E55.9, E64.3, E83.3, M83.0, M83.1, M83.2, M83.3, M83.8), apresentando quadro clínico ativo e com indicação formal para uso de Calcitriol conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "0 - cápsula|25 mcg - cápsula"
+        "dosagens_array": "0,25 mcg – cápsula"
     },
     {
         "medicamento": "Certolizumabe Pegol",
@@ -4244,7 +4244,7 @@ const bancoDeDados = [
         "motivo_revisao": "",
         "arquivo_origem": "paricalcitol_disturbio_mineral_osseo_v8_1_.pdf",
         "anamnese_padrao": "Paciente com diagnóstico de Distúrbio Mineral Ósseo na Doença Renal Crônica (N18.2, N18.3, N18.4, N18.5, N25.0), apresentando quadro clínico ativo e com indicação formal para uso de PARICALCITOL conforme Protocolo Clínico e Diretrizes Terapêuticas (PCDT) vigente.",
-        "dosagens_array": "5 - ampola de 1 mL|0 mcg/mL - ampola de 1 mL"
+        "dosagens_array": "5,0 mcg/mL – ampola de 1 mL"
     },
     {
         "medicamento": "Rituximabe",
